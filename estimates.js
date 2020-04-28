@@ -90,6 +90,9 @@ function estimate(item, group, profit, obtainCost, score) {
 	if (group.minimumDemand !== null && localDemand < group.minimumDemand) {
 		finalScore = 0;
 	}
+	if (group.minimumThroughput !== null && profit * localDemand < group.minimumThroughput) {
+		finalScore = 0;
+	}
 	item.estimate = {
 		globalLowest: globalLowestPrice,
 		localLowest: {
@@ -154,5 +157,14 @@ function estimateCraft(item, group) {
 	estimate(item, group, profit, obtainCost, score);
 }
 
+function estimateGather(item, group) {
+	const localLowestPrice = itemLocalLowestPrice(item);
+	const localDemand = itemLocalDemand(item);
+	const profit = localLowestPrice;
+	let score = localDemand * profit;
+	estimate(item, group, profit, 0, score);
+}
+
 exports.estimateCraft = estimateCraft;
 exports.estimateArbitrage = estimateArbitrage;
+exports.estimateGather = estimateGather;

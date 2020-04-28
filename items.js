@@ -7,17 +7,28 @@ let itemIndex = {};
  * Loads in an item, containing:
  * - all base item data including ingredientOf & recipe entries
  * - all market data for that specific item
+ * - all recipes' ingredient items (not loaded)
+ */
+async function load(itemId) {
+	const item = await garland.item(itemId);
+	item.market = await universalis.load(itemId);
+	itemIndex[itemId] = item;
+	return item;
+}
+
+/**
+ * Loads in an item, containing:
+ * - all base item data including ingredientOf & recipe entries
+ * - all market data for that specific item
  * - all recipes' ingredient items (loaded, recursively)
  */
 async function loadRecursively(itemId) {
-	const item = await garland.item(itemId);
-	item.market = await universalis.load(itemId);
+	const item = await load(itemId);
 	for (const recipe of item.recipes) {
 		for (const ingredient of recipe.ingredients) {
 			ingredient.item = await loadRecursively(ingredient.id);
 		}
 	}
-	itemIndex[itemId] = item;
 	return item;
 }
 
@@ -41,6 +52,8 @@ function clear() {
 	itemIndex = {};
 }
 
+exports.loadRecursively = loadRecursively;
 exports.loadTree = loadTree;
+exports.load = load;
 exports.index = index;
 exports.clear = clear;
