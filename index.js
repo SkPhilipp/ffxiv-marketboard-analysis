@@ -58,6 +58,6 @@ async function rankWatched(watch) {
 (async () => {
 	await rankWatched(watches.load('./watches/assorted-glamour-50.json'));
 	await rankWatched(watches.load('./watches/assorted-items.json'));
-	// await rankWatched(watches.load('./watches/gatherables-miner.json'));
+	await rankWatched(watches.load('./watches/gatherables-miner.json'));
 	return 0;
 })();

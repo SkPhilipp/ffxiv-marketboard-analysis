@@ -24,6 +24,11 @@ async function save() {
 	}
 }
 
+function itemId(name) {
+	const item = cacheByName[name];
+	return item == null ? null : item.id;
+}
+
 async function itemData(id) {
 	if (cache.hasOwnProperty(id)) {
 		return cache[id];
@@ -77,6 +82,7 @@ async function item(id) {
 	};
 }
 
+exports.itemId = itemId;
 exports.itemData = itemData;
 exports.item = item;
 exports.save = save;

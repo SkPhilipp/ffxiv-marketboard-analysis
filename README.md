@@ -16,11 +16,10 @@ This is incorrect:
 
 Watch files for:
 
-- Crafting quest HQ items
+- Crafting quest items
 - Gathering
 - Venture rewards
-- Map allowances
-- Cross-class Ingredient Requirements:
+- Map allowances- Cross-class Ingredient Requirements:
     - Gemsmith's Gems
     - Leatherworker's Leathers
     - Carpenter's Lumbers
