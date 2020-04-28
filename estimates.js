@@ -75,11 +75,21 @@ function itemObtainCost(item) {
 	return bestGlobalPrice;
 }
 
-function estimate(item, profit, obtainCost, score) {
+function estimate(item, group, profit, obtainCost, score) {
 	const globalLowestPrice = itemGlobalLowestPrice(item);
 	const localLowestPrice = itemLocalLowestPrice(item);
 	const localDemand = itemLocalDemand(item);
 	const profitRate = profit / obtainCost;
+	let finalScore = score;
+	if (group.minimumProfit !== null && profit < group.minimumProfit) {
+		finalScore = 0;
+	}
+	if (group.minimumProfitRate !== null && profitRate < group.minimumProfitRate) {
+		finalScore = 0;
+	}
+	if (group.minimumDemand !== null && localDemand < group.minimumDemand) {
+		finalScore = 0;
+	}
 	item.estimate = {
 		globalLowest: globalLowestPrice,
 		localLowest: {
@@ -90,11 +100,11 @@ function estimate(item, profit, obtainCost, score) {
 		obtainCost: obtainCost,
 		profit: profit,
 		profitRate: profitRate,
-		score: score
+		score: finalScore
 	};
 }
 
-function estimateArbitrage(item) {
+function estimateArbitrage(item, group) {
 	const globalLowestPrice = itemGlobalLowestPrice(item);
 	const localLowestPrice = itemLocalLowestPrice(item);
 	const localDemand = itemLocalDemand(item);
@@ -115,10 +125,10 @@ function estimateArbitrage(item) {
 		|| localDemand < 0.5) {
 		score = 0;
 	}
-	estimate(item, profit, globalLowestPrice.price, score);
+	estimate(item, group, profit, globalLowestPrice.price, score);
 }
 
-function estimateCraft(item) {
+function estimateCraft(item, group) {
 	const obtainCost = itemObtainCost(item);
 	const localLowestPrice = itemLocalLowestPrice(item);
 	const localDemand = itemLocalDemand(item);
@@ -141,7 +151,7 @@ function estimateCraft(item) {
 	if (profit <= 5_000 || localDemand < 0.2) {
 		score = 0;
 	}
-	estimate(item, profit, obtainCost, score);
+	estimate(item, group, profit, obtainCost, score);
 }
 
 exports.estimateCraft = estimateCraft;

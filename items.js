@@ -1,7 +1,7 @@
 const garland = require('./garland');
 const universalis = require('./universalisapi');
 
-const itemIndex = {};
+let itemIndex = {};
 
 /**
  * Loads in an item, containing:
@@ -37,5 +37,10 @@ function index() {
 	return itemIndex;
 }
 
+function clear() {
+	itemIndex = {};
+}
+
 exports.loadTree = loadTree;
 exports.index = index;
+exports.clear = clear;
