@@ -1,6 +1,14 @@
 const fetch = require('node-fetch');
-const cache = require('./config/garland-cache.json')
 const fs = require('fs');
+const cache = require('./config/garland-cache.json')
+const cacheByName = {};
+
+for (const key in cache) {
+	if (cache.hasOwnProperty(key)) {
+		const item = cache[key];
+		cacheByName[item.name] = item;
+	}
+}
 
 let cacheTouched = false;
 
@@ -23,9 +31,10 @@ async function itemData(id) {
 	console.log("populating garland " + id);
 	const response = await fetch("https://www.garlandtools.org/db/doc/item/en/3/" + id + ".json");
 	const item = (await response.json()).item;
+	cacheByName[item.name] = item;
 	cache[id] = item;
 	cacheTouched = true;
-	await sleep(500);
+	await sleep(100);
 	return item;
 }
 

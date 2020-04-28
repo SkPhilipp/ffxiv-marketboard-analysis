@@ -12,44 +12,14 @@ This is incorrect:
 
 ```Emperor's Throne               40915             1680000                0.41               4006%```
 
-## New: watch file configuration
-
-watch files would look as such (see watches/crafted-rares.json)
-
-Supporting:
-
-- Item lookup method.
-    - Direct (default, the given item)
-    - EndIngredientOf (items which the given item goes into, recursively)
-- Score method.
-    - Crafted (default; regular items sold around ~2 demand)
-    - CraftedRare (amount for sale, amount sold)
-    - Gathering (quantities sold)
-    - Arbitrage (price on other server)
-
 ## New: Preconfigured Watch Files
 
 Watch files for:
 
 - Crafting quest HQ items
-
 - Gathering
-    - Venture rewards
-    - Botany Items
-        - Standard Gathering
-        - Unsploiled Nodes
-        - Aetherial Reduction
-        - Legendary Nodes
-    - Mining Items
-        - Standard Gathering
-        - Unsploiled Nodes
-        - Aetherial Reduction
-        - Legendary Nodes
-    - Fishing Items
-
-- Glamour Items
-    - A Realm Reborn Boss Weapons
-
+- Venture rewards
+- Map allowances
 - Cross-class Ingredient Requirements:
     - Gemsmith's Gems
     - Leatherworker's Leathers

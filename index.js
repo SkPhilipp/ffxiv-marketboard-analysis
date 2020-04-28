@@ -5,24 +5,25 @@ const ranks = require('./ranks');
 
 async function rankWatched(watch) {
 	for (let group of watch.groups) {
+
 		// according to watch configuration, load in items
 		const watchedItems = group.items;
 		for (let key in watchedItems) {
 			if (watchedItems.hasOwnProperty(key)) {
-				const watchedItemId = watchedItems[key].id;
+				const watchedItem = watchedItems[key];
 				switch (group.lookupMethod) {
 					case "Direct":
-						await items.load(watchedItemId);
+						await items.load(watchedItem);
 						break;
 					default:
 					case "EndIngredientOf":
-						await items.loadTree(watchedItemId);
+						await items.loadTree(watchedItem);
 						break;
 				}
 			}
 		}
+		await items.save();
 
-		// TODO: index is empty after loading in miner-gather.json Direct
 		// according to watch configuration, estimate and score
 		const index = items.index();
 		for (const key in index) {
@@ -55,8 +56,8 @@ async function rankWatched(watch) {
 }
 
 (async () => {
-	await rankWatched(watches.load('./watches/glamour-weapons.json'));
+	await rankWatched(watches.load('./watches/assorted-glamour-50.json'));
 	await rankWatched(watches.load('./watches/assorted-items.json'));
-	await rankWatched(watches.load('./watches/miner-gather.json'));
+	// await rankWatched(watches.load('./watches/gatherables-miner.json'));
 	return 0;
 })();

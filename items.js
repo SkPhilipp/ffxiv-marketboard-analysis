@@ -9,10 +9,10 @@ let itemIndex = {};
  * - all market data for that specific item
  * - all recipes' ingredient items (not loaded)
  */
-async function load(itemId) {
-	const item = await garland.item(itemId);
-	item.market = await universalis.load(itemId);
-	itemIndex[itemId] = item;
+async function load(itemQuery) {
+	const item = await garland.item(itemQuery.id);
+	item.market = await universalis.load(itemQuery.id);
+	itemIndex[itemQuery.id] = item;
 	return item;
 }
 
@@ -22,11 +22,11 @@ async function load(itemId) {
  * - all market data for that specific item
  * - all recipes' ingredient items (loaded, recursively)
  */
-async function loadRecursively(itemId) {
-	const item = await load(itemId);
+async function loadRecursively(itemQuery) {
+	const item = await load(itemQuery);
 	for (const recipe of item.recipes) {
 		for (const ingredient of recipe.ingredients) {
-			ingredient.item = await loadRecursively(ingredient.id);
+			ingredient.item = await loadRecursively({id: ingredient.id});
 		}
 	}
 	return item;
@@ -35,13 +35,16 @@ async function loadRecursively(itemId) {
 /**
  * Loads an item and all the items it is an ingredient of.
  */
-async function loadTree(itemId) {
-	const item = await loadRecursively(itemId);
+async function loadTree(itemQuery) {
+	const item = await loadRecursively(itemQuery);
 	for (const targetItemId of item.ingredientOf) {
-		itemIndex[targetItemId] = await loadRecursively(targetItemId);
-		await garland.save();
-		await universalis.save();
+		itemIndex[targetItemId] = await loadRecursively({id: targetItemId});
 	}
+}
+
+async function save() {
+	await garland.save();
+	await universalis.save();
 }
 
 function index() {
@@ -57,3 +60,4 @@ exports.loadTree = loadTree;
 exports.load = load;
 exports.index = index;
 exports.clear = clear;
+exports.save = save;

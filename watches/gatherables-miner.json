@@ -1,0 +1,802 @@
+{
+  "name": "Miner Gatherables",
+  "groups": [
+    {
+      "name": "https://na.finalfantasyxiv.com/lodestone/playguide/db/gathering",
+      "lookupMethod": "Direct",
+      "scoreMethod": "Gather",
+      "minimumThroughput": 5000,
+      "items": [
+        {
+          "name": "Copper Ore"
+        },
+        {
+          "name": "Fire Shard"
+        },
+        {
+          "name": "Ice Shard"
+        },
+        {
+          "name": "Wind Shard"
+        },
+        {
+          "name": "Earth Shard"
+        },
+        {
+          "name": "Lightning Shard"
+        },
+        {
+          "name": "Water Shard"
+        },
+        {
+          "name": "Muddy Water"
+        },
+        {
+          "name": "Bone Chip"
+        },
+        {
+          "name": "Tin Ore"
+        },
+        {
+          "name": "Raw Sunstone"
+        },
+        {
+          "name": "Raw Lapis Lazuli"
+        },
+        {
+          "name": "Soiled Femur"
+        },
+        {
+          "name": "Zinc Ore"
+        },
+        {
+          "name": "Obsidian"
+        },
+        {
+          "name": "Potter's Clay"
+        },
+        {
+          "name": "Iron Ore"
+        },
+        {
+          "name": "Raw Malachite"
+        },
+        {
+          "name": "Raw Sphene"
+        },
+        {
+          "name": "Raw Fluorite"
+        },
+        {
+          "name": "Raw Danburite"
+        },
+        {
+          "name": "Sunrise Tellin"
+        },
+        {
+          "name": "Alumen"
+        },
+        {
+          "name": "Effervescent Water"
+        },
+        {
+          "name": "Silver Ore"
+        },
+        {
+          "name": "Fire Crystal"
+        },
+        {
+          "name": "Ice Crystal"
+        },
+        {
+          "name": "Wind Crystal"
+        },
+        {
+          "name": "Earth Crystal"
+        },
+        {
+          "name": "Lightning Crystal"
+        },
+        {
+          "name": "Water Crystal"
+        },
+        {
+          "name": "Wyvern Obsidian"
+        },
+        {
+          "name": "Saltpeter"
+        },
+        {
+          "name": "Raw Garnet"
+        },
+        {
+          "name": "Granite"
+        },
+        {
+          "name": "Little Worm"
+        },
+        {
+          "name": "Raw Heliodor"
+        },
+        {
+          "name": "Raw Goshenite"
+        },
+        {
+          "name": "Raw Peridot"
+        },
+        {
+          "name": "Mythril Ore"
+        },
+        {
+          "name": "Raw Amethyst"
+        },
+        {
+          "name": "Raw Aquamarine"
+        },
+        {
+          "name": "Raw Tourmaline"
+        },
+        {
+          "name": "Raw Spinel"
+        },
+        {
+          "name": "Raw Zircon"
+        },
+        {
+          "name": "Jade"
+        },
+        {
+          "name": "Black Alumen"
+        },
+        {
+          "name": "Raw Turquoise"
+        },
+        {
+          "name": "Electrum Ore"
+        },
+        {
+          "name": "Raw Amber"
+        },
+        {
+          "name": "Raw Rubellite"
+        },
+        {
+          "name": "Basilisk Egg"
+        },
+        {
+          "name": "Cobalt Ore"
+        },
+        {
+          "name": "Adamantoise Shell"
+        },
+        {
+          "name": "Ogre Horn"
+        },
+        {
+          "name": "Lightning Cluster"
+        },
+        {
+          "name": "Water Cluster"
+        },
+        {
+          "name": "Gold Ore"
+        },
+        {
+          "name": "Darksteel Ore"
+        },
+        {
+          "name": "Coblyn Larva"
+        },
+        {
+          "name": "Unaspected Crystal"
+        },
+        {
+          "name": "Gregarious Worm"
+        },
+        {
+          "name": "Ferberite"
+        },
+        {
+          "name": "Raw Ruby"
+        },
+        {
+          "name": "Raw Diamond"
+        },
+        {
+          "name": "Raw Emerald"
+        },
+        {
+          "name": "Raw Topaz"
+        },
+        {
+          "name": "Raw Iolite"
+        },
+        {
+          "name": "Raw Sapphire"
+        },
+        {
+          "name": "Native Gold"
+        },
+        {
+          "name": "Dark Matter Cluster"
+        },
+        {
+          "name": "Yellow Copper Ore"
+        },
+        {
+          "name": "Platinum Ore"
+        },
+        {
+          "name": "Dragon Obsidian"
+        },
+        {
+          "name": "Virgin Basilisk Egg"
+        },
+        {
+          "name": "Pyrite"
+        },
+        {
+          "name": "Raw Agate"
+        },
+        {
+          "name": "Raw Tiger's Eye"
+        },
+        {
+          "name": "Mythrite Ore"
+        },
+        {
+          "name": "Chalcocite"
+        },
+        {
+          "name": "Raw Larimar"
+        },
+        {
+          "name": "Limonite"
+        },
+        {
+          "name": "Raw Mormorion"
+        },
+        {
+          "name": "Dravanian Spring Water"
+        },
+        {
+          "name": "Titanium Ore"
+        },
+        {
+          "name": "Raw Star Ruby"
+        },
+        {
+          "name": "Raw Star Sapphire"
+        },
+        {
+          "name": "Light Kidney Ore"
+        },
+        {
+          "name": "Raw Opal"
+        },
+        {
+          "name": "Abalathian Spring Water"
+        },
+        {
+          "name": "Dated Radz-at-Han Coin"
+        },
+        {
+          "name": "Hardsilver Ore"
+        },
+        {
+          "name": "Raw Carnelian"
+        },
+        {
+          "name": "Ice Stalagmite"
+        },
+        {
+          "name": "Cuprite"
+        },
+        {
+          "name": "Raw Citrine"
+        },
+        {
+          "name": "Aurum Regis Sand"
+        },
+        {
+          "name": "Adamantite Ore"
+        },
+        {
+          "name": "Wyrm Obsidian"
+        },
+        {
+          "name": "Raw Chrysolite"
+        },
+        {
+          "name": "Eventide Jade"
+        },
+        {
+          "name": "Glass Eye"
+        },
+        {
+          "name": "Starcrack Sand"
+        },
+        {
+          "name": "Shishu Koban"
+        },
+        {
+          "name": "Cotter Dynasty Relic"
+        },
+        {
+          "name": "Beastkin Horn"
+        },
+        {
+          "name": "Rainbow Pigment"
+        },
+        {
+          "name": "Peaks Pigment"
+        },
+        {
+          "name": "Yellow Kudzu Root"
+        },
+        {
+          "name": "Raw Triphane"
+        },
+        {
+          "name": "Gyr Abanian Alumen"
+        },
+        {
+          "name": "Gyr Abanian Mineral Water"
+        },
+        {
+          "name": "Raw Kyanite"
+        },
+        {
+          "name": "Harpoon Head"
+        },
+        {
+          "name": "Koppranickel Ore"
+        },
+        {
+          "name": "Raw Star Spinel"
+        },
+        {
+          "name": "Phial of Thermal Fluid"
+        },
+        {
+          "name": "Crescent Spring Water"
+        },
+        {
+          "name": "Sparkstone"
+        },
+        {
+          "name": "Doman Iron Ore"
+        },
+        {
+          "name": "Malleable Still Material"
+        },
+        {
+          "name": "Schorl"
+        },
+        {
+          "name": "Raw Azurite"
+        },
+        {
+          "name": "Durium Ore"
+        },
+        {
+          "name": "Raw Imperial Jade"
+        },
+        {
+          "name": "Hard Place Furnishing Materials"
+        },
+        {
+          "name": "Molybdenum Ore"
+        },
+        {
+          "name": "Raw Rhodonite"
+        },
+        {
+          "name": "Sturdy Vat Material"
+        },
+        {
+          "name": "Clinquant Stones"
+        },
+        {
+          "name": "Almandine"
+        },
+        {
+          "name": "Raw Hematite"
+        },
+        {
+          "name": "Yanxian Soil"
+        },
+        {
+          "name": "Truegold Ore"
+        },
+        {
+          "name": "Raw Diaspore"
+        },
+        {
+          "name": "Highland Spring Water"
+        },
+        {
+          "name": "Animal Droppings"
+        },
+        {
+          "name": "Raw Lazurite"
+        },
+        {
+          "name": "Bluespirit Ore"
+        },
+        {
+          "name": "Megafauna Leftovers"
+        },
+        {
+          "name": "Raw Triplite"
+        },
+        {
+          "name": "Gale Rock"
+        },
+        {
+          "name": "Solarite"
+        },
+        {
+          "name": "Extra Effervescent Water"
+        },
+        {
+          "name": "Titancopper Ore"
+        },
+        {
+          "name": "Raw Petalite"
+        },
+        {
+          "name": "Underground Spring Water"
+        },
+        {
+          "name": "Megafauna Trace"
+        },
+        {
+          "name": "Dimythrite Ore"
+        },
+        {
+          "name": "Raw Onyx"
+        },
+        {
+          "name": "Fire Shard"
+        },
+        {
+          "name": "Ice Shard"
+        },
+        {
+          "name": "Wind Shard"
+        },
+        {
+          "name": "Earth Shard"
+        },
+        {
+          "name": "Lightning Shard"
+        },
+        {
+          "name": "Water Shard"
+        },
+        {
+          "name": "Fine Sand"
+        },
+        {
+          "name": "Copper Sand"
+        },
+        {
+          "name": "Rock Salt"
+        },
+        {
+          "name": "Ragstone"
+        },
+        {
+          "name": "Iron Sand"
+        },
+        {
+          "name": "Cinnabar"
+        },
+        {
+          "name": "Limestone"
+        },
+        {
+          "name": "Mudstone"
+        },
+        {
+          "name": "Grade 1 Carbonized Matter"
+        },
+        {
+          "name": "Earth Rock"
+        },
+        {
+          "name": "Silver Sand"
+        },
+        {
+          "name": "Fire Rock"
+        },
+        {
+          "name": "Ice Rock"
+        },
+        {
+          "name": "Wind Rock"
+        },
+        {
+          "name": "Lightning Rock"
+        },
+        {
+          "name": "Water Rock"
+        },
+        {
+          "name": "Bomb Ash"
+        },
+        {
+          "name": "Fire Crystal"
+        },
+        {
+          "name": "Ice Crystal"
+        },
+        {
+          "name": "Wind Crystal"
+        },
+        {
+          "name": "Earth Crystal"
+        },
+        {
+          "name": "Lightning Crystal"
+        },
+        {
+          "name": "Water Crystal"
+        },
+        {
+          "name": "Silex"
+        },
+        {
+          "name": "Blue Pigment"
+        },
+        {
+          "name": "Red Pigment"
+        },
+        {
+          "name": "Yellow Pigment"
+        },
+        {
+          "name": "Grey Pigment"
+        },
+        {
+          "name": "Brown Pigment"
+        },
+        {
+          "name": "Green Pigment"
+        },
+        {
+          "name": "Purple Pigment"
+        },
+        {
+          "name": "Brimstone"
+        },
+        {
+          "name": "Siltstone"
+        },
+        {
+          "name": "Grade 1 La Noscean Topsoil"
+        },
+        {
+          "name": "Grade 1 Shroud Topsoil"
+        },
+        {
+          "name": "Grade 1 Thanalan Topsoil"
+        },
+        {
+          "name": "Mythril Sand"
+        },
+        {
+          "name": "Grenade Ash"
+        },
+        {
+          "name": "Electrum Sand"
+        },
+        {
+          "name": "Marble"
+        },
+        {
+          "name": "Grade 2 La Noscean Topsoil"
+        },
+        {
+          "name": "Grade 2 Shroud Topsoil"
+        },
+        {
+          "name": "Grade 2 Thanalan Topsoil"
+        },
+        {
+          "name": "Black Limestone"
+        },
+        {
+          "name": "Fire Cluster"
+        },
+        {
+          "name": "Ice Cluster"
+        },
+        {
+          "name": "Wind Cluster"
+        },
+        {
+          "name": "Earth Cluster"
+        },
+        {
+          "name": "Lightning Cluster"
+        },
+        {
+          "name": "Water Cluster"
+        },
+        {
+          "name": "Astral Rock"
+        },
+        {
+          "name": "Gold Sand"
+        },
+        {
+          "name": "Volcanic Rock Salt"
+        },
+        {
+          "name": "Umbral Rock"
+        },
+        {
+          "name": "Unaspected Crystal"
+        },
+        {
+          "name": "Grade 3 La Noscean Topsoil"
+        },
+        {
+          "name": "Grade 3 Shroud Topsoil"
+        },
+        {
+          "name": "Grade 3 Thanalan Topsoil"
+        },
+        {
+          "name": "Antumbral Rock"
+        },
+        {
+          "name": "Dark Matter Cluster"
+        },
+        {
+          "name": "Pumice"
+        },
+        {
+          "name": "Mythrite Sand"
+        },
+        {
+          "name": "Yellow Quartz"
+        },
+        {
+          "name": "Green Quartz"
+        },
+        {
+          "name": "Abalathian Rock Salt"
+        },
+        {
+          "name": "Fire Moraine"
+        },
+        {
+          "name": "Lightning Moraine"
+        },
+        {
+          "name": "Hardsilver Sand"
+        },
+        {
+          "name": "Fossilized Dragon Bone"
+        },
+        {
+          "name": "Cloud Mica"
+        },
+        {
+          "name": "Red Quartz"
+        },
+        {
+          "name": "Bright Fire Rock"
+        },
+        {
+          "name": "Bright Lightning Rock"
+        },
+        {
+          "name": "Tektite"
+        },
+        {
+          "name": "Duskfall Moss"
+        },
+        {
+          "name": "Radiant Fire Moraine"
+        },
+        {
+          "name": "Radiant Lightning Moraine"
+        },
+        {
+          "name": "Lumythrite Sand"
+        },
+        {
+          "name": "Radiant Astral Moraine"
+        },
+        {
+          "name": "Stiperstone"
+        },
+        {
+          "name": "Koppranickel Sand"
+        },
+        {
+          "name": "Pinch of Active Ingredients"
+        },
+        {
+          "name": "Slate"
+        },
+        {
+          "name": "Diatomite"
+        },
+        {
+          "name": "Shisui Jewel"
+        },
+        {
+          "name": "Cloudkin Feather"
+        },
+        {
+          "name": "Perlite"
+        },
+        {
+          "name": "Durium Sand"
+        },
+        {
+          "name": "Strong Steppe Spice"
+        },
+        {
+          "name": "Doman Iron Sand"
+        },
+        {
+          "name": "Palladium Sand"
+        },
+        {
+          "name": "Ala Mhigan Salt Crystal"
+        },
+        {
+          "name": "Raven Coal"
+        },
+        {
+          "name": "Amh Araeng Seasonings"
+        },
+        {
+          "name": "Animal Trace"
+        },
+        {
+          "name": "Airship Fitting Components"
+        },
+        {
+          "name": "Kholusian Miscellany"
+        },
+        {
+          "name": "Yanxian Soil"
+        },
+        {
+          "name": "Coarse Saltpeter"
+        },
+        {
+          "name": "Yellow Alumen"
+        },
+        {
+          "name": "Hard Mudstone"
+        },
+        {
+          "name": "Truegold Sand"
+        },
+        {
+          "name": "Manasilver Sand"
+        },
+        {
+          "name": "Volcanic Tuff"
+        },
+        {
+          "name": "Titancopper Sand"
+        },
+        {
+          "name": "Dimythrite Sand"
+        },
+        {
+          "name": "Shade Quartz"
+        }
+      ]
+    }
+  ]
+}
