@@ -2,6 +2,10 @@
 
     npm install
 
+## Bug: Arbitrage
+
+Cross-server prices are not being loaded and instead default to Shiva.
+
 ## Bug: Demand
 
 This is incorrect:
