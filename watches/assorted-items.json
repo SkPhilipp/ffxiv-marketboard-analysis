@@ -1,44 +1,22 @@
 {
-  "name": "Assorted Crafts",
-  "groups": [
-    {
-      "name": "50+ Equipment",
-      "lookupMethod": "EndIngredientOf",
-      "scoreMethod": "CraftedRare",
-      "minimumProfit": 5000,
-      "minimumDemand": 3,
-      "items": [
-        {
-          "name": "Eikon Iron Ingot"
-        },
-        {
-          "name": "Deepgold Nugget"
-        },
-        {
-          "name": "Stonegold Nugget"
-        },
-        {
-          "name": "Stonegold Ingot"
-        },
-        {
-          "name": "Adamantite Nugget"
-        },
-        {
-          "name": "Iridescent Silk Thread"
-        },
-        {
-          "name": "Bright Linen Yarn"
-        },
-        {
-          "name": "Fieldcraft Demimateria I"
-        },
-        {
-          "name": "Fieldcraft Demimateria II"
-        },
-        {
-          "name": "Fieldcraft Demimateria III"
-        }
-      ]
-    }
-  ]
+  "name": "Assorted Crafts", "groups": [
+  {
+    "name": "50+ Equipment", "lookupMethod": "EndIngredientOf",
+    "scoreMethod": "CraftedRare",
+    "minimumProfit": 5000,
+    "minimumDemand": 3,
+    "items": [
+      {"name": "Eikon Iron Ingot"},
+      {"name": "Deepgold Nugget"},
+      {"name": "Stonegold Nugget"},
+      {"name": "Stonegold Ingot"},
+      {"name": "Adamantite Nugget"},
+      {"name": "Iridescent Silk Thread"},
+      {"name": "Bright Linen Yarn"},
+      {"name": "Fieldcraft Demimateria I"},
+      {"name": "Fieldcraft Demimateria II"},
+      {"name": "Fieldcraft Demimateria III"}
+    ]
+  }
+]
 }
