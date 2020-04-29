@@ -1,29 +1,80 @@
-function logHeaders() {
-	logLine("Name", "Obtain Cost", "Sell", "Demand", "Profit", "Profit Rate", "Global Lowest Price", "Score");
-	logLine("----", "-----------", "----", "------", "------", "-----------", "-------------------", "-----");
+function formatNumber(number) {
+	if (number < 1000) {
+		return number;
+	}
+	const scaleSymbol = ["", "K", "M", "B", "T", "Q"];
+	const tier = Math.log10(number) / 3 | 0;
+	const suffix = scaleSymbol[tier];
+	const scale = Math.pow(10, tier * 3);
+	const scaled = number / scale;
+	return scaled.toFixed(1) + suffix;
 }
 
-function logLine(name, obtainCost, sell, demand, profit, profitRate, globalLowestPrice, score) {
-	console.log(name.toString().padStart(35)
-		+ obtainCost.toString().padStart(17)
-		+ sell.toString().padStart(12)
-		+ demand.toString().padStart(10)
-		+ profit.toString().padStart(12)
-		+ profitRate.toString().padStart(17)
-		+ globalLowestPrice.toString().padStart(25)
-		+ score.toString().padStart(15));
+const cellTypeName = {
+	title: "Name",
+	width: 35,
+	method: item => item.name
+};
+
+const cellTypeObtainCost = {
+	title: "Obtain Cost",
+	width: 12,
+	method: item => item.estimate.obtainCost === 0 ? "" : item.estimate.obtainCost
+};
+
+const cellTypeSell = {
+	title: "Sell",
+	width: 7,
+	method: item => formatNumber(item.estimate.localLowest.price)
+};
+
+const cellTypeDemand = {
+	title: "Demand",
+	width: 8,
+	method: item => item.estimate.demand.toFixed(2)
+};
+
+const cellTypeProfit = {
+	title: "Profit",
+	width: 8,
+	method: item => formatNumber(item.estimate.profit)
+};
+
+const cellTypeProfitRate = {
+	title: "Profit Rate",
+	width: 12,
+	method: item => item.estimate.profitRate === Infinity ? "" : ((item.estimate.profitRate * 100).toFixed(2) + "%")
+};
+
+const cellTypeGlobalLowestPrice = {
+	title: "Lowest Price",
+	width: 20,
+	method: item => formatNumber(item.estimate.globalLowest.price) + " (" + item.estimate.globalLowest.server + ")"
+};
+
+const cellTypeScore = {
+	title: "Score",
+	width: 7,
+	method: item => formatNumber(item.estimate.score.toFixed(2))
+};
+
+function asCellTitle(cellType) {
+	return cellType.title.padStart(cellType.width) + " ";
 }
 
-function logItem(item) {
-	const name = item.name;
-	const obtainCost = item.estimate.obtainCost;
-	const sell = item.estimate.localLowest.price;
-	const demand = item.estimate.demand.toFixed(2);
-	const profit = item.estimate.profit;
-	const profitRate = (item.estimate.profitRate * 100).toFixed(2) + "%";
-	const globalLowestPrice = item.estimate.globalLowest.price + " (" + item.estimate.globalLowest.server + ")";
-	const score = item.estimate.score.toFixed(2);
-	logLine(name, obtainCost, sell, demand, profit, profitRate, globalLowestPrice, score);
+function asCellValue(cellType, item) {
+	return cellType.method(item).toString().padStart(cellType.width) + " ";
+}
+
+function asCellFill(cellType) {
+	return "-".repeat(cellType.width + 1);
+}
+
+function logTable(cellTypes, items) {
+	const title = "|" + cellTypes.map(cellType => asCellTitle(cellType)).join("|") + "|" + "\n";
+	const separator = "|" + cellTypes.map(cellType => asCellFill(cellType)).join("|") + "|" + "\n";
+	const content = items.map(item => "|" + cellTypes.map(cellType => asCellValue(cellType, item)).join("|") + "|").join("\n")
+	return title + separator + content;
 }
 
 function rank(index, top) {
@@ -40,10 +91,16 @@ function rank(index, top) {
 }
 
 function log(items) {
-	logHeaders();
-	items.forEach(item => {
-		logItem(item);
-	});
+	return logTable([
+		cellTypeName,
+		cellTypeObtainCost,
+		cellTypeSell,
+		cellTypeDemand,
+		cellTypeProfit,
+		cellTypeProfitRate,
+		cellTypeGlobalLowestPrice,
+		cellTypeScore,
+	], items);
 }
 
 function logFfxivCraftingUrl(items) {
@@ -51,8 +108,7 @@ function logFfxivCraftingUrl(items) {
 	items.forEach(item => {
 		ffxivCraftingAffix.push(item.id + ",1");
 	});
-	const ffxivCraftingUrl = "https://ffxivcrafting.com/list/saved/" + ffxivCraftingAffix.join(":");
-	console.log(ffxivCraftingUrl);
+	return "Link: https://ffxivcrafting.com/list/saved/" + ffxivCraftingAffix.join(":");
 }
 
 exports.rank = rank;

@@ -1,5 +1,5 @@
 {
-  "name": "Glamour Weapons",
+  "name": "Glamour Items",
   "groups": [
     {
       "name": "A Realm Reborn",
@@ -7,7 +7,7 @@
       "scoreMethod": "CraftedRare",
       "minimumProfit": 100000,
       "minimumProfitRate": 3,
-      "minimumDemand": 0.4,
+      "minimumDemand": 0.0,
       "items": [
         {"name": "Nidhogg's Scale"},
         {"name": "Fiend Sap"},

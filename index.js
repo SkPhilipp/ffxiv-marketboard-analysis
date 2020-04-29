@@ -3,10 +3,12 @@ const items = require('./items');
 const estimates = require('./estimates');
 const ranks = require('./ranks');
 const path = require('path');
+const showdown = require('showdown');
 
 async function rankWatched(watch) {
-	for (let group of watch.groups) {
-
+	const outputs = [];
+	for (const groupKey in watch.groups) {
+		const group = watch.groups[groupKey];
 		// according to watch configuration, load in items
 		const watchedItems = group.items;
 		for (let key in watchedItems) {
@@ -43,17 +45,14 @@ async function rankWatched(watch) {
 			}
 		}
 
-		// rank all items
-		console.log();
 		const title = watch.name + ": " + group.name;
-		console.log(title);
-		console.log("=".repeat(title.length));
-		console.log();
 		const rankedItems = ranks.rank(index, 15);
-		ranks.log(rankedItems);
-		ranks.logFfxivCraftingUrl(rankedItems);
 		items.clear();
+		outputs.push(title + "\n" + "=".repeat(title.length) + "\n\n"
+			+ ranks.log(rankedItems) + "\n\n"
+			+ ranks.logFfxivCraftingUrl(rankedItems) + "\n\n");
 	}
+	return outputs;
 }
 
 (async () => {
@@ -61,8 +60,13 @@ async function rankWatched(watch) {
 		console.error("No watch file provided, use " + process.argv[1] + " {watch_file}");
 		return;
 	}
-	const watchPath = path.join(__dirname, process.argv[2]);
-	const watched = await watches.load(watchPath);
-	await rankWatched(await watched);
+	const watchFilePathArg = process.argv[2];
+	const watchFileAsHtml = process.argv.length <= 3 ? false : process.argv[3] === "--html";
+	const watchFilePath = path.join(__dirname, watchFilePathArg);
+	const watched = await watches.load(watchFilePath);
+	const outputs = await rankWatched(await watched);
+	const converter = new showdown.Converter({tables: true});
+	outputs.map(output => watchFileAsHtml ? converter.makeHtml(output) : output)
+		.forEach(output => console.log(output));
 	return 0;
 })();

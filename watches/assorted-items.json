@@ -2,7 +2,8 @@
   "name": "Assorted Crafts",
   "groups": [
     {
-      "name": "50+ Equipment", "lookupMethod": "EndIngredientOf",
+      "name": "50+ Equipment",
+      "lookupMethod": "EndIngredientOf",
       "scoreMethod": "CraftedRare",
       "minimumProfit": 5000,
       "minimumDemand": 3,

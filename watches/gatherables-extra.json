@@ -1,8 +1,8 @@
 {
-  "name": "Gatherables Extra Botanist & Miner",
+  "name": "Botanist & Miner Gatherables",
   "groups": [
     {
-      "name": "https://na.finalfantasyxiv.com/lodestone/playguide/db/gathering",
+      "name": "Extra",
       "lookupMethod": "Direct",
       "scoreMethod": "Gather",
       "minimumThroughput": 5000,
