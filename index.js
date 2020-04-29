@@ -2,6 +2,7 @@ const watches = require('./watches');
 const items = require('./items');
 const estimates = require('./estimates');
 const ranks = require('./ranks');
+const path = require('path');
 
 async function rankWatched(watch) {
 	for (let group of watch.groups) {
@@ -45,8 +46,8 @@ async function rankWatched(watch) {
 		// rank all items
 		console.log();
 		const title = watch.name + ": " + group.name;
-		console.log(title.padStart(90));
-		console.log("=".repeat(title.length).padStart(90));
+		console.log(title);
+		console.log("=".repeat(title.length));
 		console.log();
 		const rankedItems = ranks.rank(index, 15);
 		ranks.log(rankedItems);
@@ -56,8 +57,12 @@ async function rankWatched(watch) {
 }
 
 (async () => {
-	await rankWatched(await watches.load('./watches/assorted-glamour-50.json'));
-	await rankWatched(await watches.load('./watches/assorted-items.json'));
-	await rankWatched(await watches.load('./watches/gatherables-miner.json'));
+	if (process.argv.length <= 2) {
+		console.error("No watch file provided, use " + process.argv[1] + " {watch_file}");
+		return;
+	}
+	const watchPath = path.join(__dirname, process.argv[2]);
+	const watched = await watches.load(watchPath);
+	await rankWatched(await watched);
 	return 0;
 })();

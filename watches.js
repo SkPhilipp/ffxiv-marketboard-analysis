@@ -3,7 +3,7 @@ const garland = require('./garland');
 
 async function load(path) {
 	const watchFileContent = fs.readFileSync(path, {
-		encoding: 'utf8'
+		'encoding': 'utf8'
 	});
 	const watch = JSON.parse(watchFileContent);
 	for (const groupKey in watch.groups) {
@@ -16,9 +16,7 @@ async function load(path) {
 					if (item.id == null) {
 						item.id = await garland.itemId(item.name);
 					}
-					if (item.id == null) {
-						console.error("Item id not known, ignoring: " + item.name);
-					} else {
+					if (item.id != null) {
 						allowedItems.push(item);
 					}
 				}

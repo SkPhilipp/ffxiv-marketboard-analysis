@@ -1,16 +1,17 @@
 function logHeaders() {
-	logLine("Name", "Obtain Cost", "Sell", "Demand", "Profit", "Profit Rate", "Global Lowest Price");
-	logLine("----", "-----------", "----", "------", "------", "-----------", "-------------------");
+	logLine("Name", "Obtain Cost", "Sell", "Demand", "Profit", "Profit Rate", "Global Lowest Price", "Score");
+	logLine("----", "-----------", "----", "------", "------", "-----------", "-------------------", "-----");
 }
 
-function logLine(name, obtainCost, sell, demand, profit, profitRate, globalLowestPrice) {
+function logLine(name, obtainCost, sell, demand, profit, profitRate, globalLowestPrice, score) {
 	console.log(name.toString().padStart(35)
 		+ obtainCost.toString().padStart(17)
 		+ sell.toString().padStart(12)
 		+ demand.toString().padStart(10)
 		+ profit.toString().padStart(12)
 		+ profitRate.toString().padStart(17)
-		+ globalLowestPrice.toString().padStart(25));
+		+ globalLowestPrice.toString().padStart(25)
+		+ score.toString().padStart(15));
 }
 
 function logItem(item) {
@@ -21,7 +22,8 @@ function logItem(item) {
 	const profit = item.estimate.profit;
 	const profitRate = (item.estimate.profitRate * 100).toFixed(2) + "%";
 	const globalLowestPrice = item.estimate.globalLowest.price + " (" + item.estimate.globalLowest.server + ")";
-	logLine(name, obtainCost, sell, demand, profit, profitRate, globalLowestPrice);
+	const score = item.estimate.score.toFixed(2);
+	logLine(name, obtainCost, sell, demand, profit, profitRate, globalLowestPrice, score);
 }
 
 function rank(index, top) {

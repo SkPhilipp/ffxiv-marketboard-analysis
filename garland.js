@@ -1,6 +1,7 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 const cache = require('./config/garland-cache.json')
+const blacklist = require('./config/garland-blacklisted.json')
 const cacheByName = {};
 
 for (const key in cache) {
@@ -32,6 +33,13 @@ async function itemId(name) {
 	if (item != null) {
 		return item.id;
 	}
+	for(const blacklistIndex in blacklist) {
+		if(blacklist.hasOwnProperty(blacklistIndex)) {
+			if(blacklist[blacklistIndex] === name) {
+				return null;
+			}
+		}
+	}
 	const response = await fetch("https://garlandtools.org/api/search.php?text=" + encodeURIComponent(name) + "&lang=en");
 	const searchResponse = await response.json();
 	for (const searchIndex in searchResponse) {
@@ -42,6 +50,7 @@ async function itemId(name) {
 			}
 		}
 	}
+	console.error("Item id not known, ignoring: " + name);
 	return null;
 }
 
