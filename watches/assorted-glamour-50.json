@@ -1,22 +1,24 @@
 {
-  "name": "Glamour Weapons", "groups": [
-  {
-    "name": "A Realm Reborn", "lookupMethod": "EndIngredientOf",
-    "scoreMethod": "CraftedRare",
-    "minimumProfit": 100000,
-    "minimumProfitRate": 3,
-    "minimumDemand": 0.4,
-    "items": [
-      {"name": "Nidhogg's Scale"},
-      {"name": "Fiend Sap"},
-      {"name": "Hive Forewing"},
-      {"name": "Sophic Bead Fragment"},
-      {"name": "Large Levin Orb"},
-      {"name": "Kingly Whisker"},
-      {"name": "Inferno Horn"},
-      {"name": "Allagan Catalyst"},
-      {"name": "Crag Heart"}
-    ]
-  }
-]
+  "name": "Glamour Weapons",
+  "groups": [
+    {
+      "name": "A Realm Reborn",
+      "lookupMethod": "EndIngredientOf",
+      "scoreMethod": "CraftedRare",
+      "minimumProfit": 100000,
+      "minimumProfitRate": 3,
+      "minimumDemand": 0.4,
+      "items": [
+        {"name": "Nidhogg's Scale"},
+        {"name": "Fiend Sap"},
+        {"name": "Hive Forewing"},
+        {"name": "Sophic Bead Fragment"},
+        {"name": "Large Levin Orb"},
+        {"name": "Kingly Whisker"},
+        {"name": "Inferno Horn"},
+        {"name": "Allagan Catalyst"},
+        {"name": "Crag Heart"}
+      ]
+    }
+  ]
 }

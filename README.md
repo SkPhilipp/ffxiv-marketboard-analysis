@@ -30,26 +30,10 @@ Watch files for:
 Certain items could be competed in easily if all the competitors are inactive.
 This could be watched for.
 
-## New: Modes
+## New: Server
 
-Run as `ffxiv --file {watch_file}`.
-
-Processes the watch file and displays the top 20 scored items.
-
-Run as `ffxiv --server {configuration_directory}`.
-
-Server mode would refresh the watched items every hour or so.
-Under `/` displays an a list of all watchfiles by their configured name.
-Under `/watch/{file}?top={top}` the file's watches' scored items can be viewed, with links to their page. `top` is max 1000.
-Under `/item/{id}` items' tree are displayed as such;
-
-    Endless Expanse Astrometer
-    - 5x Battlecraft Demimateria III
-    - ...
-    - 3x Eikon Mythril Ingot
-        - 2x Eikon Mythril (6x)
-        - ...
-
-## New: Multi-Item Lookup
-
-Refreshes could ask Universalis to supply data on multiple items instead of just one.
+```bash
+for watch_file in $(ls watches); do
+    index.js {watch_file} | grep -v'populating' | markdown2html > "${watch_file}.html"
+end
+```
