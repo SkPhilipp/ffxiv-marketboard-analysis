@@ -24,9 +24,25 @@ async function save() {
 	}
 }
 
-function itemId(name) {
+/**
+ * Retrieves an item's id by name. Already known item id's are retrieved from the cache.
+ */
+async function itemId(name) {
 	const item = cacheByName[name];
-	return item == null ? null : item.id;
+	if (item != null) {
+		return item.id;
+	}
+	const response = await fetch("https://garlandtools.org/api/search.php?text=" + encodeURIComponent(name) + "&lang=en");
+	const searchResponse = await response.json();
+	for (const searchIndex in searchResponse) {
+		if (searchResponse.hasOwnProperty(searchIndex)) {
+			const searchItem = searchResponse[searchIndex];
+			if (searchItem.type === "item" && searchItem.obj.n === name) {
+				return searchItem.obj.i;
+			}
+		}
+	}
+	return null;
 }
 
 async function itemData(id) {

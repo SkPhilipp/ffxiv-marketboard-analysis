@@ -5879,6 +5879,186 @@
       "seals": 46
     }
   },
+  "5108": {
+    "name": "Yellow Copper Ore",
+    "description": "A decent-sized piece of rock containing the metal copper mixed with traces of iron and sulphur.",
+    "id": 5108,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 683,
+    "ilvl": 115,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 11,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21207,
+    "nodes": [
+      315
+    ],
+    "ventures": [
+      587
+    ],
+    "masterpiece": {
+      "rating": [
+        240,
+        340,
+        370
+      ],
+      "amount": 1,
+      "stars": 3,
+      "lvl": [
+        50,
+        50
+      ],
+      "xp": [
+        259200,
+        298080,
+        336960
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  "5109": {
+    "name": "Pyrite",
+    "description": "A decent-sized piece of rock containing iron and sulphur, creating the mineral pyrite.",
+    "id": 5109,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 712,
+    "ilvl": 120,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 11,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21207,
+    "nodes": [
+      316
+    ],
+    "ventures": [
+      588
+    ],
+    "masterpiece": {
+      "rating": [
+        240,
+        340,
+        370
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        51,
+        51
+      ],
+      "xp": [
+        317520,
+        365148,
+        412776
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  "5110": {
+    "name": "Zinc Ore",
+    "description": "A decent-sized piece of rock containing the metal zinc.",
+    "id": 5110,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 20,
+    "ilvl": 14,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21210,
+    "nodes": [
+      155,
+      156
+    ],
+    "vendors": [
+      1004419,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5063": 1
+    },
+    "leves": [
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464
+    ],
+    "ventures": [
+      82
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 9930,
+      "seals": 69
+    }
+  },
   "5111": {
     "name": "Iron Ore",
     "description": "A decent-sized piece of rock containing the metal iron.",
@@ -5999,6 +6179,52 @@
       "count": 10,
       "xp": 26400,
       "seals": 108
+    }
+  },
+  "5112": {
+    "name": "Limonite",
+    "description": "A decent-sized piece of rock containing a small amount of oxidized iron. It is said to have deodorizing properties.",
+    "id": 5112,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 789,
+    "ilvl": 133,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21206,
+    "nodes": [
+      316
+    ],
+    "ventures": [
+      591
+    ],
+    "masterpiece": {
+      "rating": [
+        400,
+        450,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        53,
+        54
+      ],
+      "xp": [
+        561600,
+        645840,
+        730080
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        14,
+        15,
+        16
+      ]
     }
   },
   "5113": {
@@ -6275,6 +6501,52 @@
       "count": 10,
       "xp": 467500,
       "seals": 361
+    }
+  },
+  "5117": {
+    "name": "Light Kidney Ore",
+    "description": "A reddish ore containing large quantities of iron. Its wide availability makes it optimal for smelting in locations where purer forms of iron ore are difficult to procure, such as militia forges. This particular type of kidney ore is far more porous than the common variety, making it much easier to transport.",
+    "id": 5117,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 843,
+    "ilvl": 142,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 13,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21206,
+    "nodes": [
+      319
+    ],
+    "ventures": [
+      594
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        56,
+        57
+      ],
+      "xp": [
+        898560,
+        1033343,
+        1168128
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        20,
+        22,
+        24
+      ]
     }
   },
   "5118": {
@@ -6570,6 +6842,83 @@
       510
     ]
   },
+  "5124": {
+    "name": "Obsidian",
+    "description": "A sharp, glossy volcanic stone often used in the manufacture of weapons and jewelry.",
+    "id": 5124,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 6,
+    "ilvl": 5,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21452,
+    "nodes": [
+      156
+    ],
+    "vendors": [
+      1000392,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "1604": 1,
+      "1627": 4
+    },
+    "usedInQuest": [
+      66138
+    ],
+    "ventures": [
+      83
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 11800,
+      "seals": 77
+    }
+  },
   "5125": {
     "name": "Wyvern Obsidian",
     "description": "A hard variety of obsidian. Said to have been formed in the flames of a wyvern's breath.",
@@ -6617,6 +6966,64 @@
       "seals": 215
     }
   },
+  "5126": {
+    "name": "Dragon Obsidian",
+    "description": "A hard yet light variety of obsidian. Said to have been formed in the flames of a dragon's breath.",
+    "id": 5126,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 683,
+    "ilvl": 115,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21468,
+    "nodes": [
+      284
+    ],
+    "ingredient_of": {
+      "10628": 3,
+      "10629": 3,
+      "10630": 3,
+      "10631": 3,
+      "10641": 4
+    },
+    "ventures": [
+      444
+    ],
+    "masterpiece": {
+      "rating": [
+        240,
+        340,
+        370
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        50,
+        50
+      ],
+      "xp": [
+        48384,
+        55641,
+        62899
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        5,
+        5,
+        6
+      ]
+    },
+    "supply": {
+      "count": 10,
+      "xp": 648000,
+      "seals": 575
+    }
+  },
   "5127": {
     "name": "Wyrm Obsidian",
     "description": "Obsidian of legendary quality. Said to have been formed in the flames of a wyrm's breath and possess magical qualities.",
@@ -6651,6 +7058,361 @@
       "count": 10,
       "xp": 2458500,
       "seals": 690
+    }
+  },
+  "5128": {
+    "name": "Raw Sunstone",
+    "description": "An uncut, unpolished stone containing what appears to be sunstone.",
+    "id": 5128,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 68,
+    "ilvl": 13,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      187
+    ],
+    "vendors": [
+      1004419,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5169": 1
+    },
+    "ventures": [
+      79
+    ]
+  },
+  "5129": {
+    "name": "Raw Danburite",
+    "description": "An uncut, unpolished stone containing what appears to be danburite.",
+    "id": 5129,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 68,
+    "ilvl": 13,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      161
+    ],
+    "vendors": [
+      1004419,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5170": 1
+    },
+    "ventures": [
+      96
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 45700,
+      "seals": 138
+    }
+  },
+  "5130": {
+    "name": "Raw Malachite",
+    "description": "An uncut, unpolished stone containing what appears to be malachite.",
+    "id": 5130,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 68,
+    "ilvl": 13,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      160
+    ],
+    "vendors": [
+      1004419,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5171": 1
+    },
+    "ventures": [
+      92
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 35400,
+      "seals": 123
+    }
+  },
+  "5131": {
+    "name": "Raw Sphene",
+    "description": "An uncut, unpolished stone containing what appears to be a sphene.",
+    "id": 5131,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 68,
+    "ilvl": 13,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      190
+    ],
+    "vendors": [
+      1004419,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5172": 1
+    },
+    "ventures": [
+      93
+    ]
+  },
+  "5132": {
+    "name": "Raw Fluorite",
+    "description": "An uncut, unpolished stone containing what appears to be fluorite.",
+    "id": 5132,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 68,
+    "ilvl": 13,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      160
+    ],
+    "vendors": [
+      1004419,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5173": 1
+    },
+    "ventures": [
+      94
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 40500,
+      "seals": 131
     }
   },
   "5133": {
@@ -6726,6 +7488,275 @@
       "seals": 54
     }
   },
+  "5134": {
+    "name": "Raw Garnet",
+    "description": "An uncut, unpolished stone containing what appears to be garnet.",
+    "id": 5134,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 486,
+    "ilvl": 31,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      179
+    ],
+    "ingredient_of": {
+      "2413": 1,
+      "4620": 1,
+      "5175": 1
+    },
+    "ventures": [
+      132
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 175900,
+      "seals": 238
+    }
+  },
+  "5135": {
+    "name": "Raw Goshenite",
+    "description": "An uncut, unpolished stone containing what appears to be goshenite.",
+    "id": 5135,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 486,
+    "ilvl": 31,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      179
+    ],
+    "ingredient_of": {
+      "4621": 1,
+      "5176": 1
+    },
+    "ventures": [
+      135
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 203500,
+      "seals": 253
+    }
+  },
+  "5136": {
+    "name": "Raw Peridot",
+    "description": "An uncut, unpolished stone containing what appears to be peridot.",
+    "id": 5136,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 486,
+    "ilvl": 31,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      178
+    ],
+    "ingredient_of": {
+      "4622": 1,
+      "5177": 1
+    },
+    "ventures": [
+      136
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 203500,
+      "seals": 253
+    }
+  },
+  "5137": {
+    "name": "Raw Heliodor",
+    "description": "An uncut, unpolished stone containing what appears to be heliodor.",
+    "id": 5137,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 486,
+    "ilvl": 31,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      177
+    ],
+    "ingredient_of": {
+      "4623": 1,
+      "5178": 1
+    },
+    "ventures": [
+      134
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 189600,
+      "seals": 246
+    }
+  },
+  "5138": {
+    "name": "Raw Amethyst",
+    "description": "An uncut, unpolished stone containing what appears to be amethyst.",
+    "id": 5138,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 486,
+    "ilvl": 31,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      178
+    ],
+    "ingredient_of": {
+      "4624": 1,
+      "5179": 1
+    },
+    "usedInQuest": [
+      66179
+    ],
+    "ventures": [
+      139
+    ]
+  },
+  "5139": {
+    "name": "Raw Aquamarine",
+    "description": "An uncut, unpolished stone containing what appears to be aquamarine.",
+    "id": 5139,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 486,
+    "ilvl": 31,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      179
+    ],
+    "ingredient_of": {
+      "4625": 1,
+      "5180": 1
+    },
+    "ventures": [
+      140
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 232320,
+      "seals": 269
+    }
+  },
+  "5140": {
+    "name": "Raw Rubellite",
+    "description": "An uncut, unpolished stone containing what appears to be rubellite.",
+    "id": 5140,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 40,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      185
+    ],
+    "ingredient_of": {
+      "4626": 1,
+      "5181": 1
+    },
+    "ventures": [
+      154
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 408200,
+      "seals": 345
+    }
+  },
+  "5141": {
+    "name": "Raw Zircon",
+    "description": "An uncut, unpolished stone containing what appears to be zircon.",
+    "id": 5141,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 40,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      180
+    ],
+    "ingredient_of": {
+      "4627": 1,
+      "5182": 1
+    },
+    "ventures": [
+      143
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 286200,
+      "seals": 292
+    }
+  },
+  "5142": {
+    "name": "Raw Tourmaline",
+    "description": "An uncut, unpolished stone containing what appears to be tourmaline.",
+    "id": 5142,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 40,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      49
+    ],
+    "ingredient_of": {
+      "4628": 1,
+      "5183": 1
+    },
+    "ventures": [
+      141
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 249900,
+      "seals": 276
+    }
+  },
   "5143": {
     "name": "Raw Amber",
     "description": "An uncut, unpolished stone containing what appears to be amber.",
@@ -6755,6 +7786,66 @@
       "count": 10,
       "xp": 390800,
       "seals": 338
+    }
+  },
+  "5144": {
+    "name": "Raw Spinel",
+    "description": "An uncut, unpolished stone containing what appears to be spinel.",
+    "id": 5144,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 40,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      49
+    ],
+    "ingredient_of": {
+      "4630": 1,
+      "5185": 1
+    },
+    "ventures": [
+      142
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 267800,
+      "seals": 284
+    }
+  },
+  "5145": {
+    "name": "Raw Turquoise",
+    "description": "An uncut, unpolished stone containing what appears to be turquoise.",
+    "id": 5145,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 40,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21453,
+    "nodes": [
+      186
+    ],
+    "ingredient_of": {
+      "4631": 1,
+      "5186": 1
+    },
+    "ventures": [
+      150
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 340200,
+      "seals": 315
     }
   },
   "5146": {
@@ -6901,6 +7992,218 @@
       533
     ]
   },
+  "5152": {
+    "name": "Fire Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric fire energy.",
+    "id": 5152,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 168,
+    "ilvl": 22,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21451,
+    "nodes": [
+      167
+    ],
+    "ingredient_of": {
+      "5198": 1,
+      "29683": 2
+    },
+    "ventures": [
+      103
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 79100,
+      "seals": 177
+    }
+  },
+  "5153": {
+    "name": "Ice Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric ice energy.",
+    "id": 5153,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 168,
+    "ilvl": 22,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21451,
+    "nodes": [
+      48
+    ],
+    "ingredient_of": {
+      "5199": 1
+    },
+    "ventures": [
+      104
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 79100,
+      "seals": 177
+    }
+  },
+  "5154": {
+    "name": "Wind Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric wind energy.",
+    "id": 5154,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 168,
+    "ilvl": 22,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21451,
+    "nodes": [
+      48
+    ],
+    "ingredient_of": {
+      "5200": 1
+    },
+    "ventures": [
+      106
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 87100,
+      "seals": 184
+    }
+  },
+  "5155": {
+    "name": "Earth Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric earth energy.",
+    "id": 5155,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 168,
+    "ilvl": 22,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21451,
+    "nodes": [
+      48
+    ],
+    "ingredient_of": {
+      "5201": 1
+    },
+    "ventures": [
+      101
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 63900,
+      "seals": 161
+    }
+  },
+  "5156": {
+    "name": "Lightning Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric lightning energy.",
+    "id": 5156,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 168,
+    "ilvl": 22,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21451,
+    "nodes": [
+      167
+    ],
+    "ingredient_of": {
+      "5202": 1
+    },
+    "ventures": [
+      107
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 87100,
+      "seals": 184
+    }
+  },
+  "5157": {
+    "name": "Water Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric water energy.",
+    "id": 5157,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 168,
+    "ilvl": 22,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21451,
+    "nodes": [
+      167
+    ],
+    "ingredient_of": {
+      "5203": 1
+    },
+    "ventures": [
+      109
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 95200,
+      "seals": 192
+    }
+  },
+  "5158": {
+    "name": "Astral Rock",
+    "description": "An uncut, unpolished stone imbued with an unbalanced elemental aspect tipping towards astral.",
+    "id": 5158,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 1197,
+    "ilvl": 55,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21251,
+    "nodes": [
+      225
+    ],
+    "ingredient_of": {
+      "2415": 1,
+      "5204": 1,
+      "6183": 3,
+      "9310": 1,
+      "11927": 2,
+      "13092": 9,
+      "13093": 9,
+      "13094": 9,
+      "15950": 9,
+      "15951": 9,
+      "15952": 9,
+      "17004": 9,
+      "17005": 9,
+      "17006": 9
+    },
+    "ventures": [
+      512
+    ]
+  },
   "5159": {
     "name": "Red Quartz",
     "description": "Several small pieces of deep red unpolished quartz.",
@@ -7000,6 +8303,98 @@
       ]
     }
   },
+  "5161": {
+    "name": "Green Quartz",
+    "description": "Several small pieces of deep green unpolished quartz.",
+    "id": 5161,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 807,
+    "ilvl": 136,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 13,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21459,
+    "nodes": [
+      317
+    ],
+    "ventures": [
+      592
+    ],
+    "masterpiece": {
+      "rating": [
+        400,
+        450,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        53,
+        55
+      ],
+      "xp": [
+        665280,
+        765071,
+        864864
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "5162": {
+    "name": "Yellow Quartz",
+    "description": "Several small pieces of bright-yellow unpolished quartz.",
+    "id": 5162,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 125,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21458,
+    "nodes": [
+      317
+    ],
+    "ventures": [
+      589
+    ],
+    "masterpiece": {
+      "rating": [
+        240,
+        340,
+        370
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        51,
+        52
+      ],
+      "xp": [
+        380160,
+        437183,
+        494208
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        12,
+        13,
+        14
+      ]
+    }
+  },
   "5163": {
     "name": "Violet Quartz",
     "description": "Several small pieces of deep purple unpolished quartz.",
@@ -7048,6 +8443,39 @@
         25,
         27
       ]
+    }
+  },
+  "5168": {
+    "name": "Jade",
+    "description": "An uncut, unpolished stone containing what appears to be jade.",
+    "id": 5168,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 40,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21252,
+    "nodes": [
+      180
+    ],
+    "ingredient_of": {
+      "2097": 1,
+      "5196": 1
+    },
+    "usedInQuest": [
+      66180
+    ],
+    "ventures": [
+      144
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 304900,
+      "seals": 299
     }
   },
   "5174": {
@@ -7649,6 +9077,112 @@
       }
     ]
   },
+  "5214": {
+    "name": "Fire Moraine",
+    "description": "Gravel elementally aspected to fire.",
+    "id": 5214,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 1816,
+    "ilvl": 139,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 28,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21456,
+    "nodes": [
+      307,
+      309,
+      311
+    ],
+    "reducesTo": [
+      12936,
+      14,
+      8
+    ]
+  },
+  "5218": {
+    "name": "Lightning Moraine",
+    "description": "Gravel elementally aspected to lightning.",
+    "id": 5218,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 1816,
+    "ilvl": 139,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 28,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21461,
+    "nodes": [
+      305,
+      313
+    ],
+    "reducesTo": [
+      12936,
+      18,
+      12
+    ]
+  },
+  "5220": {
+    "name": "Radiant Fire Moraine",
+    "description": "Luminous gravel elementally aspected to fire.",
+    "id": 5220,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 1960,
+    "ilvl": 150,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21456,
+    "nodes": [
+      307,
+      309,
+      311
+    ],
+    "reducesTo": [
+      12938,
+      14,
+      8
+    ]
+  },
+  "5224": {
+    "name": "Radiant Lightning Moraine",
+    "description": "Luminous gravel elementally aspected to lightning.",
+    "id": 5224,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 1960,
+    "ilvl": 150,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21461,
+    "nodes": [
+      305,
+      313
+    ],
+    "reducesTo": [
+      12938,
+      18,
+      12
+    ]
+  },
   "5226": {
     "name": "Astral Moraine",
     "description": "Gravel with an unbalanced elemental aspect tipping towards astral.",
@@ -7700,6 +9234,167 @@
         25,
         27
       ]
+    }
+  },
+  "5228": {
+    "name": "Ragstone",
+    "description": "A coarse, brittle stone comprised of layers of sand compressed down over thousands of generations.",
+    "id": 5228,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21454,
+    "nodes": [
+      194
+    ],
+    "vendors": [
+      1000392,
+      1004419,
+      1000236,
+      1001204,
+      1001966,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1011201,
+      1018984,
+      1019333,
+      1027992,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "2289": 1,
+      "2405": 1,
+      "2406": 1,
+      "4717": 1,
+      "5258": 2
+    },
+    "ventures": [
+      88
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 23700,
+      "seals": 100
+    }
+  },
+  "5229": {
+    "name": "Mudstone",
+    "description": "A flaky stone comprised of layers of mud condensed and compressed down over thousands of generations.",
+    "id": 5229,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 31,
+    "ilvl": 19,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21455,
+    "drops": [
+      19980000001461,
+      28380000002522,
+      300000004108,
+      21570000001527,
+      300000000365,
+      14900000001691,
+      14910000001692,
+      14920000001693,
+      300000000131,
+      5790000000558,
+      300000000030,
+      22650000002188,
+      18930000001981,
+      16260000001601,
+      32520000003058,
+      17550000001569,
+      300000000280,
+      300000003621,
+      300000004286
+    ],
+    "nodes": [
+      166
+    ],
+    "vendors": [
+      1005633,
+      1005640,
+      1005647,
+      1019101
+    ],
+    "ingredient_of": {
+      "2408": 1,
+      "2409": 1,
+      "5259": 2,
+      "6481": 6,
+      "7013": 2,
+      "8013": 6,
+      "10361": 30,
+      "10362": 90,
+      "10363": 165,
+      "10364": 30,
+      "10365": 90,
+      "10366": 165,
+      "10367": 30,
+      "10368": 90,
+      "10369": 165,
+      "10370": 30,
+      "10371": 90,
+      "10372": 165,
+      "20714": 15,
+      "20715": 15,
+      "28728": 1
+    },
+    "ventures": [
+      100
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 56600,
+      "seals": 154
     }
   },
   "5230": {
@@ -8116,6 +9811,338 @@
       "count": 10,
       "xp": 437600,
       "seals": 353
+    }
+  },
+  "5267": {
+    "name": "Fine Sand",
+    "description": "Extra-fine sand made up of particles barely visible to the eyes of men.",
+    "id": 5267,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 3,
+    "ilvl": 2,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21464,
+    "nodes": [
+      194
+    ],
+    "ingredient_of": {
+      "7016": 1,
+      "7132": 4,
+      "7142": 4,
+      "13095": 5,
+      "15775": 4,
+      "15776": 8,
+      "21841": 4,
+      "21842": 8,
+      "24492": 10,
+      "24493": 12,
+      "28131": 5
+    },
+    "ventures": [
+      85
+    ]
+  },
+  "5268": {
+    "name": "Copper Sand",
+    "description": "Bright-colored sand consisting of tiny grains of copper.",
+    "id": 5268,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 6,
+    "ilvl": 5,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21006,
+    "nodes": [
+      159
+    ],
+    "vendors": [
+      1004418,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5475": 2
+    },
+    "leves": [
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338
+    ],
+    "ventures": [
+      86
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 15600,
+      "seals": 85
+    }
+  },
+  "5269": {
+    "name": "Iron Sand",
+    "description": "Dark-colored sand consisting of tiny grains of iron.",
+    "id": 5269,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 18,
+    "ilvl": 13,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21204,
+    "nodes": [
+      159
+    ],
+    "vendors": [
+      1004418,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "5476": 2
+    },
+    "leves": [
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350
+    ],
+    "ventures": [
+      90
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 26400,
+      "seals": 108
+    }
+  },
+  "5270": {
+    "name": "Silver Sand",
+    "description": "Dull-colored sand consisting of tiny grains of silver.",
+    "id": 5270,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 45,
+    "ilvl": 22,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21204,
+    "nodes": [
+      48
+    ],
+    "ingredient_of": {
+      "5477": 2
+    },
+    "leves": [
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362
+    ],
+    "ventures": [
+      102
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 71400,
+      "seals": 169
+    }
+  },
+  "5271": {
+    "name": "Mythril Sand",
+    "description": "Pale-colored sand consisting of tiny grains of mythril.",
+    "id": 5271,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 147,
+    "ilvl": 33,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22650,
+    "nodes": [
+      36
+    ],
+    "ingredient_of": {
+      "5478": 2
+    },
+    "leves": [
+      363,
+      364,
+      365,
+      366,
+      367,
+      368
+    ],
+    "ventures": [
+      137
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 203500,
+      "seals": 253
+    }
+  },
+  "5272": {
+    "name": "Electrum Sand",
+    "description": "Blue-gold sand consisting of tiny grains of electrum.",
+    "id": 5272,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 219,
+    "ilvl": 42,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21214,
+    "nodes": [
+      46
+    ],
+    "ingredient_of": {
+      "5479": 2,
+      "9515": 1
+    },
+    "leves": [
+      375,
+      376,
+      377,
+      378,
+      379,
+      380
+    ],
+    "ventures": [
+      151
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 356800,
+      "seals": 322
     }
   },
   "5273": {
@@ -11911,6 +13938,201 @@
       516
     ]
   },
+  "5432": {
+    "name": "Bone Chip",
+    "description": "A broken piece of bone from some man or beast.",
+    "id": 5432,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 5,
+    "ilvl": 1,
+    "category": 53,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22201,
+    "drops": [
+      10750000001565,
+      200000001854,
+      1260000000110,
+      23670000002333,
+      13660000000434,
+      2740000000427,
+      200000000020,
+      17640000001576,
+      200000000110,
+      15550000001449
+    ],
+    "nodes": [
+      157
+    ],
+    "vendors": [
+      1000391,
+      1000392,
+      1000996,
+      1004419,
+      1004418,
+      1000236,
+      1001204,
+      1001966,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1018984,
+      1019333,
+      1027992,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "1602": 1,
+      "1603": 1,
+      "1681": 2,
+      "1820": 1,
+      "1998": 1,
+      "2056": 1,
+      "2106": 1,
+      "4092": 2,
+      "4421": 1,
+      "5503": 2,
+      "9184": 1
+    },
+    "usedInQuest": [
+      66136
+    ],
+    "ventures": [
+      77
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 2514,
+      "seals": 39
+    }
+  },
+  "5433": {
+    "name": "Soiled Femur",
+    "description": "The dirty bone of a large beast. It appears to have been gnawed on.",
+    "id": 5433,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 9,
+    "ilvl": 1,
+    "category": 53,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22202,
+    "nodes": [
+      155,
+      156
+    ],
+    "vendors": [
+      1000392,
+      1004419,
+      1000236,
+      1001204,
+      1001966,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1027015,
+      1011201,
+      1018984,
+      1019333,
+      1027992,
+      1025717,
+      1026169
+    ],
+    "ingredient_of": {
+      "1823": 1,
+      "2106": 1,
+      "2108": 1,
+      "4093": 3,
+      "4306": 2,
+      "8663": 1
+    },
+    "ventures": [
+      81
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 7350,
+      "seals": 62
+    }
+  },
   "5436": {
     "name": "Aldgoat Horn",
     "description": "The large, curved horn of an aldgoat.",
@@ -12019,6 +14241,47 @@
       260
     ]
   },
+  "5439": {
+    "name": "Ogre Horn",
+    "description": "The curved horn of a cyclopean ogre.",
+    "id": 5439,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 890,
+    "ilvl": 46,
+    "category": 53,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22205,
+    "drops": [
+      23740000002339,
+      19220000002017,
+      44540000003493,
+      33590000003031,
+      21970000002061,
+      6470000002874,
+      6470000000793,
+      17960000001442
+    ],
+    "nodes": [
+      189
+    ],
+    "ingredient_of": {
+      "2097": 1,
+      "2130": 2
+    },
+    "ventures": [
+      68,
+      159
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 648000,
+      "seals": 575
+    }
+  },
   "5448": {
     "name": "Biast Scales",
     "description": "The blue-brown scales of a biast.",
@@ -12067,6 +14330,82 @@
     "ventures": [
       429
     ]
+  },
+  "5458": {
+    "name": "Adamantoise Shell",
+    "description": "The shell of a giant tortoise originally native to the island of Thavnair, but now found living throughout Eorzea.",
+    "id": 5458,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 702,
+    "ilvl": 40,
+    "category": 53,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22261,
+    "drops": [
+      3580000000243,
+      21300000001505,
+      3580000002511,
+      24510000002360
+    ],
+    "nodes": [
+      189
+    ],
+    "ingredient_of": {
+      "1716": 2,
+      "3183": 1,
+      "3669": 1,
+      "3886": 1,
+      "4170": 3,
+      "6756": 1,
+      "6768": 1,
+      "6774": 1
+    },
+    "ventures": [
+      158
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 529000,
+      "seals": 376
+    }
+  },
+  "5465": {
+    "name": "Sunrise Tellin",
+    "description": "A tiny bivalve mollusk commonly harvested on the Pearl. Its pink shells are prized by goldsmiths who craft them into beautiful jewelry.",
+    "id": 5465,
+    "patch": 1,
+    "patchCategory": 7,
+    "price": 49,
+    "ilvl": 17,
+    "category": 47,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22254,
+    "nodes": [
+      161
+    ],
+    "ingredient_of": {
+      "1663": 1,
+      "2004": 1,
+      "2023": 1,
+      "2727": 1,
+      "3131": 1,
+      "6739": 1
+    },
+    "ventures": [
+      97
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 51000,
+      "seals": 146
+    }
   },
   "5472": {
     "name": "Growth Formula Gamma",
@@ -12480,6 +14819,42 @@
     "requiredByLeves": [
       370
     ]
+  },
+  "5488": {
+    "name": "Muddy Water",
+    "description": "Cloudy water taken from a stagnant source.",
+    "id": 5488,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 14,
+    "ilvl": 10,
+    "category": 54,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22637,
+    "nodes": [
+      153,
+      154
+    ],
+    "vendors": [
+      1004418
+    ],
+    "ingredient_of": {
+      "5487": 1
+    },
+    "quests": [
+      66113
+    ],
+    "ventures": [
+      76
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 1220,
+      "seals": 23
+    }
   },
   "5489": {
     "name": "Quicksilver",
@@ -14179,6 +16554,37 @@
       "seals": 207
     }
   },
+  "5524": {
+    "name": "Alumen",
+    "description": "A white mineral used by leatherworkers to tan animal hides. It also has deodorizing properties.",
+    "id": 5524,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 28,
+    "ilvl": 17,
+    "category": 54,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22616,
+    "nodes": [
+      160
+    ],
+    "ingredient_of": {
+      "5277": 1,
+      "5280": 1,
+      "5282": 1
+    },
+    "ventures": [
+      98
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 51000,
+      "seals": 146
+    }
+  },
   "5525": {
     "name": "Black Alumen",
     "description": "A darker variety of the mineral used by leatherworkers to tan animal hides. It lacks the deodorizing properties of its lighter counterpart.",
@@ -14323,6 +16729,107 @@
       "count": 10,
       "xp": 155900,
       "seals": 223
+    }
+  },
+  "5528": {
+    "name": "Bomb Ash",
+    "description": "Grey ash produced by the internal combustions of a bomb.",
+    "id": 5528,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 82,
+    "ilvl": 26,
+    "category": 54,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21001,
+    "drops": [
+      170000002743,
+      170000002707,
+      170000002688,
+      170000002745,
+      170000000270,
+      2570000000425,
+      170000000017,
+      22660000002189,
+      23440000002280,
+      14150000001193,
+      170000000132
+    ],
+    "nodes": [
+      169
+    ],
+    "vendors": [
+      1008909
+    ],
+    "tradeShops": [
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5528",
+                "amount": 3
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "2499": 1,
+      "5058": 1,
+      "6481": 4,
+      "21844": 4,
+      "22557": 2,
+      "29685": 2
+    },
+    "leves": [
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242
+    ],
+    "ventures": [
+      39,
+      110
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 109800,
+      "seals": 200
     }
   },
   "5530": {
@@ -15073,6 +17580,30 @@
       59
     ]
   },
+  "5599": {
+    "name": "Grade 1 Carbonized Matter",
+    "description": "Naturally occurring coal infused with dark matter.",
+    "id": 5599,
+    "patch": 1,
+    "patchCategory": 5,
+    "price": 37,
+    "ilvl": 15,
+    "category": 60,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20406,
+    "nodes": [
+      35,
+      164
+    ],
+    "usedInQuest": [
+      65543,
+      66140
+    ]
+  },
   "5728": {
     "name": "Terebinth",
     "description": "This foul-smelling sap can be used to remove dyes quickly and easily. Remember to always use in a well-ventilated area.",
@@ -15140,6 +17671,222 @@
     "ingredient_of": {
       "7017": 1
     }
+  },
+  "5814": {
+    "name": "Blue Pigment",
+    "description": "Extracted from natural sources, this blue powder can be prepared to create a plethora of colorful dyes.",
+    "id": 5814,
+    "patch": 1,
+    "patchCategory": 8,
+    "price": 97,
+    "ilvl": 28,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21457,
+    "nodes": [
+      138,
+      184,
+      204,
+      162
+    ],
+    "ingredient_of": {
+      "5795": 1,
+      "5798": 1,
+      "5799": 1,
+      "5800": 1,
+      "5801": 1,
+      "5804": 1
+    },
+    "ventures": [
+      119,
+      255
+    ]
+  },
+  "5815": {
+    "name": "Red Pigment",
+    "description": "Extracted from natural sources, this red powder can be prepared to create a plethora of colorful dyes.",
+    "id": 5815,
+    "patch": 1,
+    "patchCategory": 8,
+    "price": 97,
+    "ilvl": 28,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21456,
+    "nodes": [
+      139,
+      42,
+      172,
+      201
+    ],
+    "ingredient_of": {
+      "5738": 1,
+      "5740": 1,
+      "28965": 1
+    },
+    "ventures": [
+      120,
+      256
+    ]
+  },
+  "5816": {
+    "name": "Yellow Pigment",
+    "description": "Extracted from natural sources, this yellow powder can be prepared to create a plethora of colorful dyes.",
+    "id": 5816,
+    "patch": 1,
+    "patchCategory": 8,
+    "price": 97,
+    "ilvl": 28,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21458,
+    "nodes": [
+      171,
+      50,
+      183,
+      203
+    ],
+    "ingredient_of": {
+      "5765": 1,
+      "5766": 1
+    },
+    "ventures": [
+      121,
+      257
+    ]
+  },
+  "5817": {
+    "name": "Grey Pigment",
+    "description": "Extracted from natural sources, this grey powder can be prepared to create a plethora of colorful dyes.",
+    "id": 5817,
+    "patch": 1,
+    "patchCategory": 8,
+    "price": 97,
+    "ilvl": 28,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21463,
+    "nodes": [
+      44,
+      165,
+      45,
+      205
+    ],
+    "ingredient_of": {
+      "5729": 1,
+      "5734": 1
+    },
+    "ventures": [
+      122,
+      258
+    ]
+  },
+  "5818": {
+    "name": "Brown Pigment",
+    "description": "Extracted from natural sources, this brown powder can be prepared to create a plethora of colorful dyes.",
+    "id": 5818,
+    "patch": 1,
+    "patchCategory": 8,
+    "price": 97,
+    "ilvl": 28,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21462,
+    "nodes": [
+      171,
+      50,
+      183,
+      203
+    ],
+    "ingredient_of": {
+      "5744": 1,
+      "5749": 1,
+      "5754": 1,
+      "5761": 1
+    },
+    "ventures": [
+      123,
+      259
+    ]
+  },
+  "5819": {
+    "name": "Green Pigment",
+    "description": "Extracted from natural sources, this green powder can be prepared to create a plethora of colorful dyes.",
+    "id": 5819,
+    "patch": 1,
+    "patchCategory": 8,
+    "price": 97,
+    "ilvl": 28,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21459,
+    "nodes": [
+      37,
+      173,
+      163,
+      200
+    ],
+    "ingredient_of": {
+      "5780": 1,
+      "5781": 1,
+      "5784": 1,
+      "5785": 1,
+      "5787": 1
+    },
+    "ventures": [
+      124,
+      260
+    ]
+  },
+  "5820": {
+    "name": "Purple Pigment",
+    "description": "Extracted from natural sources, this purple powder can be prepared to create a plethora of colorful dyes.",
+    "id": 5820,
+    "patch": 1,
+    "patchCategory": 8,
+    "price": 97,
+    "ilvl": 28,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21461,
+    "nodes": [
+      32,
+      175,
+      202,
+      174
+    ],
+    "ingredient_of": {
+      "5810": 1,
+      "5811": 1,
+      "5812": 1,
+      "5813": 1,
+      "28965": 1
+    },
+    "ventures": [
+      125,
+      261
+    ]
   },
   "5998": {
     "name": "Tallow Candle",
@@ -15754,6 +18501,45 @@
       "20366": 1,
       "20367": 1
     }
+  },
+  "6199": {
+    "name": "Coblyn Larva",
+    "description": "Too dangerous to allow to grow any larger...too adorable to condemn to the furnace.<br><br>Use item to acquire the coblyn larva minion.",
+    "minionrace": "Monster",
+    "tooltip": "The lads go through gear\r\nfaster'n a coblyn chewin'\r\non a chunk of mythril.\r\n  - Wawarukka",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Vulcanize",
+    "specialactiondescription": "Increases DEF of all allies within range by 10 (30 if the ally is a <span class=\"highlight\">monster</span>).<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 6199,
+    "patch": 1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": "t/59433",
+    "nodes": [
+      223
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 30,
+      "Speed": 2
+    },
+    "models": [
+      "8031-1-1"
+    ]
   },
   "6498": {
     "name": "Titanic Cragsoul Lamp",
@@ -19316,6 +22102,86 @@
       }
     ]
   },
+  "7610": {
+    "name": "Umbral Rock",
+    "description": "A rock with an elemental aspect leaning heavily towards umbral.",
+    "id": 7610,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 415,
+    "ilvl": 70,
+    "category": 48,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21213,
+    "nodes": [
+      240
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Forager Gear",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7531",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7610",
+                "amount": 20,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "7522",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7610",
+                "amount": 10,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6141",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7610",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "7612": {
     "name": "Spruce Plywood",
     "description": "A thin but sturdy construction material made by pressing together layers of wood, designed to achieve uniform strength.",
@@ -20903,6 +23769,243 @@
       "10530": 9
     }
   },
+  "7758": {
+    "name": "Grade 1 La Noscean Topsoil",
+    "description": "Grade 1 topsoil obtained in the La Noscean region. Increases the likelihood that plants will yield higher quality crops.",
+    "id": 7758,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 120,
+    "ilvl": 30,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27401,
+    "nodes": [
+      183
+    ],
+    "ventures": [
+      129
+    ]
+  },
+  "7759": {
+    "name": "Grade 2 La Noscean Topsoil",
+    "description": "Grade 2 topsoil obtained in the La Noscean region. Increases the likelihood that plants will yield higher quality crops.",
+    "id": 7759,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 202,
+    "ilvl": 40,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27402,
+    "nodes": [
+      193
+    ],
+    "ventures": [
+      147
+    ]
+  },
+  "7760": {
+    "name": "Grade 3 La Noscean Topsoil",
+    "description": "Grade 3 topsoil obtained in the La Noscean region. Increases the likelihood that plants will yield higher quality crops.",
+    "id": 7760,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 297,
+    "ilvl": 50,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27403,
+    "nodes": [
+      239
+    ],
+    "ventures": [
+      506
+    ]
+  },
+  "7761": {
+    "name": "Grade 1 Shroud Topsoil",
+    "description": "Grade 1 topsoil obtained in the Black Shroud region. Increases the likelihood that plants will yield more crops.",
+    "id": 7761,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 120,
+    "ilvl": 30,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27404,
+    "nodes": [
+      163
+    ],
+    "ventures": [
+      130
+    ]
+  },
+  "7762": {
+    "name": "Grade 2 Shroud Topsoil",
+    "description": "Grade 2 topsoil obtained in the Black Shroud region. Increases the likelihood that plants will yield more crops.",
+    "id": 7762,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 202,
+    "ilvl": 40,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27405,
+    "nodes": [
+      209
+    ],
+    "ventures": [
+      148
+    ]
+  },
+  "7763": {
+    "name": "Grade 3 Shroud Topsoil",
+    "description": "Grade 3 topsoil obtained in the Black Shroud region. Increases the likelihood that plants will yield more crops.",
+    "id": 7763,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 297,
+    "ilvl": 50,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27406,
+    "nodes": [
+      240
+    ],
+    "tradeShops": [
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7763",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13584",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ventures": [
+      507
+    ]
+  },
+  "7764": {
+    "name": "Grade 1 Thanalan Topsoil",
+    "description": "Grade 1 topsoil obtained in the Thanalan region. Increases the likelihood that plants will intercross with one another.",
+    "id": 7764,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 120,
+    "ilvl": 30,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27407,
+    "nodes": [
+      172
+    ],
+    "ventures": [
+      131
+    ]
+  },
+  "7765": {
+    "name": "Grade 2 Thanalan Topsoil",
+    "description": "Grade 2 topsoil obtained in the Thanalan region. Increases the likelihood that plants will intercross with one another.",
+    "id": 7765,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 202,
+    "ilvl": 40,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27408,
+    "nodes": [
+      151
+    ],
+    "ventures": [
+      149
+    ]
+  },
+  "7766": {
+    "name": "Grade 3 Thanalan Topsoil",
+    "description": "Grade 3 topsoil obtained in the Thanalan region. Increases the likelihood that plants will intercross with one another.",
+    "id": 7766,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 297,
+    "ilvl": 50,
+    "category": 82,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27409,
+    "nodes": [
+      241
+    ],
+    "tradeShops": [
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7766",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ventures": [
+      508
+    ]
+  },
   "7775": {
     "name": "Glazenut",
     "description": "The oil extracted from this nut is ideal for use as varnish.",
@@ -22240,6 +25343,101 @@
           "nq": 177,
           "hq": 197
         }
+      }
+    ]
+  },
+  "8030": {
+    "name": "Antumbral Rock",
+    "description": "A rock with an elemental aspect leaning unnaturally towards umbral.",
+    "id": 8030,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 1633,
+    "ilvl": 75,
+    "category": 48,
+    "sell_price": 25,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21213,
+    "nodes": [
+      246
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Supra Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8040",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8030",
+                "amount": 30
+              },
+              {
+                "id": "8150",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10108",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8030",
+                "amount": 30,
+                "hq": 1
+              },
+              {
+                "id": "10120",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6141",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8030",
+                "amount": 5
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -37642,6 +40840,31 @@
       "229"
     ]
   },
+  "9519": {
+    "name": "Pumice",
+    "description": "Volcanic rock riddled with countless tiny holes which make the stone remarkably lighter than it appears. Parchment makers rub the pieces on vellum to prepare the pages for receiving ink.",
+    "id": 9519,
+    "patch": 2.45,
+    "patchCategory": 5,
+    "price": 475,
+    "ilvl": 80,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21454,
+    "nodes": [
+      250
+    ],
+    "ingredient_of": {
+      "9514": 2,
+      "9517": 2
+    },
+    "ventures": [
+      538
+    ]
+  },
   "9718": {
     "name": "Longcase Chronometer",
     "description": "A precision instrument for telling time. Its towering silhouette adds a touch of gravitas to the ambience of any room.",
@@ -38068,6 +41291,65 @@
       541
     ]
   },
+  "10094": {
+    "name": "Little Worm",
+    "description": "While commonly used as bait by fishers across the realm, little worms also make fine chocobo feed, providing a good source of protein for growing birds.",
+    "id": 10094,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 64,
+    "ilvl": 30,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27022,
+    "nodes": [
+      177
+    ],
+    "ingredient_of": {
+      "9615": 2,
+      "9618": 2,
+      "9621": 2,
+      "9624": 2,
+      "9627": 2
+    }
+  },
+  "10095": {
+    "name": "Gregarious Worm",
+    "description": "A rare form of earthworm, these fat invertebrates also make fine chocobo feed, providing an excellent source of protein for growing birds.",
+    "id": 10095,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 221,
+    "ilvl": 70,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27019,
+    "nodes": [
+      222,
+      223,
+      236,
+      237,
+      238,
+      247,
+      252
+    ],
+    "ingredient_of": {
+      "9616": 2,
+      "9619": 2,
+      "9622": 2,
+      "9625": 2,
+      "9628": 2
+    },
+    "ventures": [
+      543
+    ]
+  },
   "10096": {
     "name": "Rosemary",
     "description": "A savory herb treasured for its ability to enhance focus and concentration.",
@@ -38092,6 +41374,127 @@
     },
     "ventures": [
       542
+    ]
+  },
+  "10099": {
+    "name": "Unaspected Crystal",
+    "description": "For reasons unknown to you, this crystal has completely lost its elemental charge.",
+    "id": 10099,
+    "patch": 2.5,
+    "patchCategory": 5,
+    "price": 914,
+    "ilvl": 70,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 14,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20019,
+    "nodes": [
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      245,
+      247,
+      248,
+      249,
+      252
+    ],
+    "ingredient_of": {
+      "8844": 1,
+      "8845": 1,
+      "8846": 1,
+      "8847": 1,
+      "8848": 1,
+      "8849": 1,
+      "8850": 1,
+      "8851": 1,
+      "8852": 1,
+      "8853": 1,
+      "8854": 1,
+      "8855": 1,
+      "8856": 1,
+      "8857": 1,
+      "8858": 1,
+      "8859": 1,
+      "9653": 3,
+      "9654": 3,
+      "9655": 3,
+      "9656": 3,
+      "9657": 3,
+      "9658": 3,
+      "9659": 3,
+      "9660": 3,
+      "9661": 3,
+      "9662": 3,
+      "9663": 3,
+      "9664": 3,
+      "9665": 3,
+      "9666": 3,
+      "9667": 3,
+      "9668": 3,
+      "9669": 3,
+      "9670": 3,
+      "9671": 3,
+      "9672": 3,
+      "9673": 3,
+      "9674": 3,
+      "9676": 3,
+      "9677": 3,
+      "9678": 3,
+      "9679": 3,
+      "9680": 3,
+      "9681": 3,
+      "9682": 3,
+      "9684": 3,
+      "12214": 1,
+      "12215": 3,
+      "12216": 3
+    },
+    "ventures": [
+      574,
+      575
+    ],
+    "voyages": [
+      "Sea of Clouds 08",
+      "Sea of Clouds 10",
+      "The Ivory Shoals",
+      "Deep-sea Site 1",
+      "Deep-sea site 2",
+      "The Lightless Basin",
+      "Southern Rimilala Trench",
+      "The Umbrella Narrow",
+      "Offender's Rot",
+      "Neolith Island",
+      "The Cobalt Shoals",
+      "Deep-sea Site 4"
     ]
   },
   "10161": {
@@ -38584,6 +41987,67 @@
           "hq": 73818
         }
       }
+    ]
+  },
+  "10335": {
+    "name": "Dark Matter Cluster",
+    "description": "This substance of unknown origin has the faculty to assimilate with other forms of matter, effectively restoring them to their original condition. Pieces this large are quite rare.",
+    "id": 10335,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 693,
+    "ilvl": 70,
+    "category": 60,
+    "tradeable": 1,
+    "sell_price": 11,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20407,
+    "nodes": [
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      245,
+      247,
+      248,
+      249,
+      252,
+      315,
+      340
+    ],
+    "ingredient_of": {
+      "10373": 1
+    },
+    "ventures": [
+      576,
+      577
     ]
   },
   "10349": {
@@ -60305,6 +63769,35 @@
       "seals": 598
     }
   },
+  "12553": {
+    "name": "Raw Agate",
+    "description": "An uncut, unpolished stone containing what appears to be agate.",
+    "id": 12553,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 2613,
+    "ilvl": 120,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21471,
+    "nodes": [
+      287
+    ],
+    "ingredient_of": {
+      "12543": 3
+    },
+    "ventures": [
+      446
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 793800,
+      "seals": 587
+    }
+  },
   "12554": {
     "name": "Raw Star Ruby",
     "description": "An uncut, unpolished stone containing what appears to be star ruby.",
@@ -60392,6 +63885,35 @@
       "seals": 656
     }
   },
+  "12557": {
+    "name": "Raw Citrine",
+    "description": "An uncut, unpolished stone containing what appears to be citrine.",
+    "id": 12557,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 3223,
+    "ilvl": 148,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21474,
+    "nodes": [
+      351
+    ],
+    "ingredient_of": {
+      "12547": 3
+    },
+    "ventures": [
+      458
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 2332800,
+      "seals": 679
+    }
+  },
   "12558": {
     "name": "Raw Chrysolite",
     "description": "An uncut, unpolished stone containing what appears to be chrysolite.",
@@ -60419,6 +63941,35 @@
       "count": 10,
       "xp": 2458500,
       "seals": 690
+    }
+  },
+  "12559": {
+    "name": "Raw Mormorion",
+    "description": "An uncut, unpolished stone containing what appears to be mormorion.",
+    "id": 12559,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 2896,
+    "ilvl": 133,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21476,
+    "nodes": [
+      285
+    ],
+    "ingredient_of": {
+      "12549": 3
+    },
+    "ventures": [
+      450
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 1404000,
+      "seals": 621
     }
   },
   "12560": {
@@ -67300,6 +70851,120 @@
       ]
     }
   },
+  "12901": {
+    "name": "Abalathian Rock Salt",
+    "description": "Mined from veins found in Abalathia's Spine, this pinkish salt has a high mineral content which adds depth to its flavor.",
+    "id": 12901,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 1980,
+    "ilvl": 139,
+    "category": 45,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22617,
+    "nodes": [
+      318
+    ],
+    "vendors": [
+      1011201
+    ],
+    "tradeShops": [
+      {
+        "shop": "Curious Crop Exchange",
+        "npcs": [
+          1005633,
+          1005640,
+          1005647,
+          1018091,
+          1018094,
+          1018097,
+          1019101,
+          1019111
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12901",
+                "amount": 5
+              }
+            ],
+            "currency": [
+              {
+                "id": "15857",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "12088": 2,
+      "12622": 1,
+      "12623": 1,
+      "12624": 1,
+      "12625": 1,
+      "12626": 1,
+      "12856": 1,
+      "12858": 1,
+      "12860": 1,
+      "12862": 1,
+      "12863": 1,
+      "12864": 1,
+      "12868": 1,
+      "12908": 1,
+      "13742": 1,
+      "14138": 1,
+      "16712": 1,
+      "16714": 1,
+      "17021": 1,
+      "27853": 1,
+      "27859": 3,
+      "27865": 1,
+      "27868": 1,
+      "27870": 1
+    },
+    "leves": [
+      1076,
+      1077,
+      1078,
+      1079,
+      1080,
+      1081
+    ],
+    "ventures": [
+      593
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        56,
+        56
+      ],
+      "xp": [
+        777600,
+        894239,
+        1010880
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        20,
+        22,
+        24
+      ]
+    }
+  },
   "12912": {
     "name": "Celestine",
     "description": "A light-blue crystalline mineral which, when ground and added to any flammable material, will cause it to burn red.",
@@ -68720,6 +72385,98 @@
       12833
     ]
   },
+  "12941": {
+    "name": "Chalcocite",
+    "description": "A black metallic ore containing copper and traces of iron and saltpeter.",
+    "id": 12941,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 772,
+    "ilvl": 130,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21209,
+    "nodes": [
+      316
+    ],
+    "ventures": [
+      590
+    ],
+    "masterpiece": {
+      "rating": [
+        320,
+        450,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        53,
+        53
+      ],
+      "xp": [
+        466560,
+        536544,
+        606528
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "12942": {
+    "name": "Cuprite",
+    "description": "Though its appearance suggests it is a precious gem, this ore is actually a rare form of red translucent copper.",
+    "id": 12942,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 879,
+    "ilvl": 148,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 14,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21206,
+    "nodes": [
+      319
+    ],
+    "ventures": [
+      596
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        58,
+        59
+      ],
+      "xp": [
+        1166400,
+        1341360,
+        1516320
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        22,
+        24,
+        26
+      ]
+    }
+  },
   "12943": {
     "name": "Dravanian Mistletoe",
     "description": "A variety of parasitic plant found growing on trees in the Churning Mists.",
@@ -68903,6 +72660,59 @@
         27
       ]
     }
+  },
+  "12966": {
+    "name": "Bright Fire Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric fire energy.",
+    "id": 12966,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 3158,
+    "ilvl": 145,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 48,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21471,
+    "nodes": [
+      307,
+      309,
+      311
+    ],
+    "reducesTo": [
+      12937,
+      14,
+      8
+    ]
+  },
+  "12967": {
+    "name": "Bright Lightning Rock",
+    "description": "An uncut, unpolished stone imbued with aetheric lightning energy.",
+    "id": 12967,
+    "patch": 3,
+    "patchCategory": 5,
+    "price": 3158,
+    "ilvl": 145,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 48,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21475,
+    "nodes": [
+      305,
+      313
+    ],
+    "reducesTo": [
+      12937,
+      18,
+      12
+    ]
   },
   "12973": {
     "name": "Clary Sage",
@@ -78741,6 +82551,138 @@
       "24365": 6,
       "24366": 6,
       "24367": 6
+    }
+  },
+  "13759": {
+    "name": "Tektite",
+    "description": "A type of naturally occurring glass first discovered after the Calamity which ushered in the Seventh Umbral Era.",
+    "id": 13759,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 879,
+    "ilvl": 148,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 20808,
+    "nodes": [
+      355
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        59,
+        59
+      ],
+      "xp": [
+        171072,
+        196732,
+        222393
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        9,
+        9,
+        10
+      ]
+    }
+  },
+  "13760": {
+    "name": "Eventide Jade",
+    "description": "A rare form of jade as red as a sunset.",
+    "id": 13760,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 3267,
+    "ilvl": 150,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21455,
+    "nodes": [
+      351,
+      352,
+      353,
+      354
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        59,
+        60
+      ],
+      "xp": [
+        196680,
+        226181,
+        255684
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "13761": {
+    "name": "Fossilized Dragon Bone",
+    "description": "There is much debate amongst Eorzean scholars as to how much time must pass before a bone becomes fossilized. Some say a mere generation will suffice, citing evidence such as the proliferation of petrification magicks. Others believe it may take upwards of a thousand thousand years, casting doubts on the theories which state Hydaelyn was created a mere twenty thousand summers past.",
+    "id": 13761,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 2800,
+    "ilvl": 136,
+    "category": 53,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22201,
+    "nodes": [
+      355
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        56,
+        56
+      ],
+      "xp": [
+        116640,
+        134136,
+        151632
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        8,
+        8,
+        9
+      ]
     }
   },
   "13790": {
@@ -98926,6 +102868,36 @@
       }
     ]
   },
+  "15949": {
+    "name": "Radiant Astral Moraine",
+    "description": "Luminous gravel with an unbalanced elemental aspect tipping towards astral.",
+    "id": 15949,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 1188,
+    "ilvl": 200,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "reducible": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21463,
+    "nodes": [
+      305,
+      307,
+      309,
+      311,
+      313
+    ],
+    "reducesTo": [
+      15648,
+      19,
+      13
+    ]
+  },
   "15964": {
     "name": "Sophia Miniature",
     "description": "A statuette depicting the Meracydian goddess, Sophia. (Barbelo statuette suspiciously missing.)<br><br>※One per estate only.",
@@ -100053,6 +104025,463 @@
           "nq": 370,
           "hq": 390
         }
+      }
+    ]
+  },
+  "17557": {
+    "name": "Dated Radz-at-Han Coin",
+    "description": "Currency once used on the Near Eastern island of Thavnair, now only sought by numismatists and historians.",
+    "id": 17557,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 142,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26272,
+    "nodes": [
+      353,
+      361
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1019615,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              107,
+              134,
+              160
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              20,
+              26,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1019615,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "17558": {
+    "name": "Ice Stalagmite",
+    "description": "Ice stalactites <span class=\"emphasis\">hold on tight</span> to the ceiling of a cave. This is not an ice stalactite.",
+    "id": 17558,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 145,
+    "category": 54,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 20009,
+    "nodes": [
+      351,
+      300
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1019615,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              116,
+              143,
+              169
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              22,
+              28,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1019615,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "17559": {
+    "name": "Duskfall Moss",
+    "description": "Infusions made with this hardy brown-black foliage are believed to restore vigor.",
+    "id": 17559,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 148,
+    "category": 54,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25011,
+    "nodes": [
+      355,
+      359
+    ],
+    "satisfaction": [
+      {
+        "level": 3,
+        "npc": 1019615,
+        "probability": 1,
+        "rating": [
+          240,
+          350,
+          440
+        ],
+        "satisfaction": [
+          130,
+          130,
+          130
+        ],
+        "gil": [
+          900,
+          1120,
+          1340
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              125,
+              152,
+              178
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1019615,
+        "probability": 18,
+        "rating": [
+          240,
+          350,
+          440
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "17560": {
+    "name": "Glass Eye",
+    "description": "A small bead of naturally formed glass that could pass off as an eye, if viewed from thirty paces...in the fog.",
+    "id": 17560,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 150,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21267,
+    "nodes": [
+      354,
+      360
+    ],
+    "satisfaction": [
+      {
+        "level": 4,
+        "npc": 1019615,
+        "probability": 1,
+        "rating": [
+          240,
+          400,
+          440
+        ],
+        "satisfaction": [
+          180,
+          180,
+          180
+        ],
+        "gil": [
+          1010,
+          1260,
+          1510
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              134,
+              161,
+              187
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1019615,
+        "probability": 18,
+        "rating": [
+          240,
+          400,
+          440
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "17561": {
+    "name": "Rainbow Pigment",
+    "description": "Extracted from natural sources, this colorful powder can be prepared to create an equally colorful dye.",
+    "id": 17561,
+    "patch": 3.55,
+    "patchCategory": 8,
+    "price": 333,
+    "ilvl": 160,
+    "category": 55,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22851,
+    "nodes": [
+      352,
+      358
+    ],
+    "satisfaction": [
+      {
+        "level": 5,
+        "npc": 1019615,
+        "probability": 28,
+        "rating": [
+          240,
+          400,
+          460
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
       }
     ]
   },
@@ -103642,6 +108071,71 @@
       "seals": 771
     }
   },
+  "19871": {
+    "name": "Gyr Abanian Mineral Water",
+    "description": "Clear water taken from a mountain spring on the eastern end of Abalathia's Spine.",
+    "id": 19871,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 514,
+    "ilvl": 260,
+    "category": 54,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22614,
+    "nodes": [
+      486
+    ],
+    "ingredient_of": {
+      "19809": 1,
+      "19885": 1,
+      "19891": 1,
+      "19892": 1,
+      "19893": 1,
+      "19894": 1,
+      "19895": 1,
+      "19902": 1
+    },
+    "leves": [
+      1317,
+      1318
+    ],
+    "ventures": [
+      648
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        61,
+        61
+      ],
+      "xp": [
+        204666,
+        235365,
+        266065
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        8,
+        8,
+        10
+      ]
+    },
+    "supply": {
+      "count": 10,
+      "xp": 2533960,
+      "seals": 702
+    }
+  },
   "19872": {
     "name": "Crescent Spring Water",
     "description": "Clear, odorless water taken from one of the many springs found on Othard's Fanged Crescent.",
@@ -103998,6 +108492,58 @@
     "requiredByLeves": [
       1324
     ]
+  },
+  "19910": {
+    "name": "Gyr Abanian Alumen",
+    "description": "A brownish variety of the mineral used by leatherworkers to tan animal hides. It is only found in the mountains of Eastern Aldenard.",
+    "id": 19910,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 504,
+    "ilvl": 255,
+    "category": 54,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22644,
+    "nodes": [
+      485
+    ],
+    "ingredient_of": {
+      "17957": 4,
+      "19993": 1,
+      "19994": 1,
+      "19995": 1
+    },
+    "ventures": [
+      646
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 2,
+      "lvl": [
+        60,
+        60
+      ],
+      "xp": [
+        196680,
+        226181,
+        255684
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        8,
+        8,
+        10
+      ]
+    }
   },
   "19911": {
     "name": "Yanxian Parsley",
@@ -105333,6 +109879,61 @@
       "seals": 702
     }
   },
+  "19951": {
+    "name": "Koppranickel Ore",
+    "description": "A decent-sized piece of rock containing the metal koppranickel.",
+    "id": 19951,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 524,
+    "ilvl": 265,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21209,
+    "nodes": [
+      487
+    ],
+    "ingredient_of": {
+      "19940": 4,
+      "19941": 4
+    },
+    "ventures": [
+      650
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        61,
+        63
+      ],
+      "xp": [
+        243978,
+        280574,
+        317171
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        8,
+        8,
+        10
+      ]
+    },
+    "supply": {
+      "count": 10,
+      "xp": 2555960,
+      "seals": 725
+    }
+  },
   "19952": {
     "name": "Durium Sand",
     "description": "Jade-colored sand consisting of tiny grains of durium.",
@@ -105427,6 +110028,92 @@
       "count": 10,
       "xp": 2658100,
       "seals": 748
+    }
+  },
+  "19954": {
+    "name": "Durium Ore",
+    "description": "A decent-sized piece of rock containing the metal durium.",
+    "id": 19954,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 546,
+    "ilvl": 279,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21221,
+    "nodes": [
+      491
+    ],
+    "ingredient_of": {
+      "19944": 4
+    },
+    "ventures": [
+      655
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        66,
+        68
+      ],
+      "xp": [
+        383720,
+        441277,
+        498836
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        9,
+        9,
+        11
+      ]
+    },
+    "supply": {
+      "count": 10,
+      "xp": 2877900,
+      "seals": 782
+    }
+  },
+  "19955": {
+    "name": "Doman Iron Sand",
+    "description": "Metallic sand consisting of tiny grains of Doman iron.",
+    "id": 19955,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 546,
+    "ilvl": 279,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21204,
+    "nodes": [
+      495
+    ],
+    "ingredient_of": {
+      "19945": 4
+    },
+    "leves": [
+      1293
+    ],
+    "ventures": [
+      664
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 2829750,
+      "seals": 771
     }
   },
   "19956": {
@@ -105846,6 +110533,55 @@
       }
     ]
   },
+  "19968": {
+    "name": "Raw Triphane",
+    "description": "An uncut, unpolished stone containing what appears to be triphane.",
+    "id": 19968,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 504,
+    "ilvl": 255,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21474,
+    "nodes": [
+      497
+    ],
+    "ingredient_of": {
+      "19962": 3
+    },
+    "ventures": [
+      647
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 2,
+      "lvl": [
+        60,
+        60
+      ],
+      "xp": [
+        1296300,
+        1490745,
+        1685190
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        12,
+        13,
+        15
+      ]
+    }
+  },
   "19969": {
     "name": "Raw Kyanite",
     "description": "An uncut, unpolished stone containing what appears to be kyanite.",
@@ -105873,6 +110609,104 @@
       "count": 10,
       "xp": 2551680,
       "seals": 713
+    }
+  },
+  "19970": {
+    "name": "Raw Star Spinel",
+    "description": "An uncut, unpolished stone containing what appears to be star spinel.",
+    "id": 19970,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 540,
+    "ilvl": 273,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21475,
+    "nodes": [
+      498
+    ],
+    "ingredient_of": {
+      "19964": 3
+    },
+    "ventures": [
+      652
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        61,
+        63
+      ],
+      "xp": [
+        1510340,
+        1736890,
+        1963442
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        13,
+        14,
+        16
+      ]
+    }
+  },
+  "19971": {
+    "name": "Raw Azurite",
+    "description": "An uncut, unpolished stone containing what appears to be azurite.",
+    "id": 19971,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 546,
+    "ilvl": 279,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21472,
+    "nodes": [
+      501
+    ],
+    "ingredient_of": {
+      "19965": 3
+    },
+    "ventures": [
+      654
+    ],
+    "masterpiece": {
+      "rating": [
+        450,
+        470,
+        500
+      ],
+      "amount": 1,
+      "stars": 0,
+      "lvl": [
+        66,
+        66
+      ],
+      "xp": [
+        1698839,
+        1953664,
+        2208490
+      ],
+      "reward": 17834,
+      "rewardAmount": [
+        20,
+        23,
+        26
+      ]
     }
   },
   "19972": {
@@ -107989,6 +112823,177 @@
     "ingredient_of": {
       "19998": 2
     }
+  },
+  "20006": {
+    "name": "Diatomite",
+    "description": "Geological scholars claim that this sedimentary stone is actually comprised of the shells of thousands upon thousands of tiny sea creatures.",
+    "id": 20006,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 534,
+    "ilvl": 270,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22634,
+    "nodes": [
+      490
+    ],
+    "ingredient_of": {
+      "19891": 1,
+      "19892": 1,
+      "19893": 1,
+      "19894": 1,
+      "19895": 1
+    },
+    "ventures": [
+      662
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 2555960,
+      "seals": 725
+    }
+  },
+  "20007": {
+    "name": "Slate",
+    "description": "Unlike other sedimentary stone, slate has been compressed under the weight of mountains for so long that it is surprisingly hard, making it ideal for whetstones and grinding stones.",
+    "id": 20007,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 514,
+    "ilvl": 260,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21455,
+    "nodes": [
+      489
+    ],
+    "ingredient_of": {
+      "19541": 2,
+      "19562": 2,
+      "19767": 9,
+      "19768": 27,
+      "19769": 45,
+      "20008": 3,
+      "20723": 9,
+      "20724": 27,
+      "20725": 45
+    },
+    "ventures": [
+      661
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 2551680,
+      "seals": 713
+    }
+  },
+  "20009": {
+    "name": "Schorl",
+    "description": "A blackish mineral possibly containing trace amounts of the precious stone tourmaline.",
+    "id": 20009,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 546,
+    "ilvl": 279,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21476,
+    "nodes": [
+      496
+    ],
+    "reducesTo": [
+      20014,
+      18,
+      12
+    ]
+  },
+  "20010": {
+    "name": "Perlite",
+    "description": "A strange, pearlescent volcanic rock that expands tenfold upon heating in a kiln or forge.",
+    "id": 20010,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 546,
+    "ilvl": 279,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21463,
+    "nodes": [
+      492
+    ],
+    "ingredient_of": {
+      "19905": 1
+    },
+    "reducesTo": [
+      20015,
+      19,
+      13
+    ]
+  },
+  "20011": {
+    "name": "Almandine",
+    "description": "A garnet-like mineral that, due to its extreme hardness, is used in grinding wheels.",
+    "id": 20011,
+    "patch": 4,
+    "patchCategory": 5,
+    "price": 556,
+    "ilvl": 300,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21471,
+    "nodes": [
+      494
+    ],
+    "ingredient_of": {
+      "18949": 1,
+      "18950": 1,
+      "18951": 1,
+      "18952": 1,
+      "18953": 1,
+      "18954": 1,
+      "18955": 1,
+      "18956": 1,
+      "18957": 1,
+      "18958": 1,
+      "18959": 1,
+      "18960": 1,
+      "18961": 1,
+      "18962": 1,
+      "18963": 1,
+      "18964": 1,
+      "18965": 1,
+      "18966": 1,
+      "18967": 1,
+      "18968": 1,
+      "19583": 2
+    },
+    "reducesTo": [
+      20013,
+      14,
+      8
+    ]
   },
   "20358": {
     "name": "Inferno Katana",
@@ -110491,6 +115496,463 @@
       "8228-1-1"
     ]
   },
+  "20780": {
+    "name": "Starcrack Sand",
+    "description": "A metallic sand which simpleminded smallfolk believe contains pieces of the very comet Rhalgr tore from the heavens.",
+    "id": 20780,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 150,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21214,
+    "nodes": [
+      485,
+      505
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1020337,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              107,
+              134,
+              160
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              20,
+              26,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "20781": {
+    "name": "Shishu Koban",
+    "description": "This oblong gold coin once saw heavy circulation throughout Hingashi and the eastern provinces of Othard.",
+    "id": 20781,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 150,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26285,
+    "nodes": [
+      533,
+      534
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1020337,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              116,
+              143,
+              169
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              22,
+              28,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "20782": {
+    "name": "Cotter Dynasty Relic",
+    "description": "A lavishly decorated ornament dated to the rule of Gyr Abanian king Cotter.",
+    "id": 20782,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 150,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 48449,
+    "nodes": [
+      485,
+      505
+    ],
+    "satisfaction": [
+      {
+        "level": 3,
+        "npc": 1020337,
+        "probability": 1,
+        "rating": [
+          240,
+          350,
+          440
+        ],
+        "satisfaction": [
+          130,
+          130,
+          130
+        ],
+        "gil": [
+          900,
+          1120,
+          1340
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              125,
+              152,
+              178
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 18,
+        "rating": [
+          240,
+          350,
+          440
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "20783": {
+    "name": "Peaks Pigment",
+    "description": "Extracted from natural sources in the Gyr Abanian highlands, this clay-based substance can be dried and ground, then prepared with water and oil to create a colorful dye.",
+    "id": 20783,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 180,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21457,
+    "nodes": [
+      531,
+      532
+    ],
+    "satisfaction": [
+      {
+        "level": 4,
+        "npc": 1020337,
+        "probability": 1,
+        "rating": [
+          240,
+          400,
+          440
+        ],
+        "satisfaction": [
+          180,
+          180,
+          180
+        ],
+        "gil": [
+          1010,
+          1260,
+          1510
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              134,
+              161,
+              187
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 18,
+        "rating": [
+          240,
+          400,
+          440
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "20784": {
+    "name": "Yellow Kudzu Root",
+    "description": "This variety of kudzu not only exhibits the curative properties of its more common cousin, it has been observed growing almost twice as fast. It has also been observed withering and dying twice as fast.",
+    "id": 20784,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 180,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25005,
+    "nodes": [
+      531,
+      532
+    ],
+    "satisfaction": [
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 28,
+        "rating": [
+          240,
+          400,
+          460
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "21057": {
     "name": "Wind-up Ravana",
     "description": "Low on low he stands, gazing up to see.<br><br>Use item to acquire the wind-up Ravana minion.",
@@ -110775,6 +116237,490 @@
     },
     "ventures": [
       749
+    ]
+  },
+  "23148": {
+    "name": "Pinch of Active Ingredients",
+    "description": "Minerals that serve as the active ingredients in various Gyr Abanian remedies.",
+    "id": 23148,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 205,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22616,
+    "nodes": [
+      489,
+      512
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1025878,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              107,
+              134,
+              160
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              20,
+              26,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1025878,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "23149": {
+    "name": "Harpoon Head",
+    "description": "A sharp and sturdy harpoon head, well suited to shark stabbing.",
+    "id": 23149,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 210,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22203,
+    "nodes": [
+      486,
+      509
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1025878,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              116,
+              143,
+              169
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              22,
+              28,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1025878,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "23150": {
+    "name": "Phial of Thermal Fluid",
+    "description": "This liquid can be applied, to great effect, as insulation.",
+    "id": 23150,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 215,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22660,
+    "nodes": [
+      551,
+      552
+    ],
+    "satisfaction": [
+      {
+        "level": 3,
+        "npc": 1025878,
+        "probability": 1,
+        "rating": [
+          240,
+          350,
+          440
+        ],
+        "satisfaction": [
+          130,
+          130,
+          130
+        ],
+        "gil": [
+          900,
+          1120,
+          1340
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              125,
+              152,
+              178
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1025878,
+        "probability": 18,
+        "rating": [
+          240,
+          350,
+          440
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "23151": {
+    "name": "Shisui Jewel",
+    "description": "A rare gem from beneath the waves of the Ruby Sea.",
+    "id": 23151,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 220,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21284,
+    "nodes": [
+      490,
+      511
+    ],
+    "satisfaction": [
+      {
+        "level": 4,
+        "npc": 1025878,
+        "probability": 1,
+        "rating": [
+          240,
+          400,
+          440
+        ],
+        "satisfaction": [
+          180,
+          180,
+          180
+        ],
+        "gil": [
+          1010,
+          1260,
+          1510
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              134,
+              161,
+              187
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1025878,
+        "probability": 18,
+        "rating": [
+          240,
+          400,
+          440
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "23152": {
+    "name": "Cloudkin Feather",
+    "description": "This feather could easily have come from one of any number of cloudkin.",
+    "id": 23152,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 225,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25901,
+    "nodes": [
+      553,
+      554
+    ],
+    "satisfaction": [
+      {
+        "level": 5,
+        "npc": 1025878,
+        "probability": 28,
+        "rating": [
+          240,
+          400,
+          460
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "23220": {
+    "name": "Yanxian Soil",
+    "description": "Fine, rich earth from Yanxia.",
+    "id": 23220,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 6000,
+    "ilvl": 340,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 20,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21466,
+    "nodes": [
+      492,
+      494,
+      496
+    ],
+    "reducesTo": [
+      23182,
+      16,
+      10
     ]
   },
   "24320": {
@@ -113603,6 +119549,463 @@
           "nq": 61481,
           "hq": 61501
         }
+      }
+    ]
+  },
+  "24567": {
+    "name": "Sparkstone",
+    "description": "The burning aether contained within this volcanic stone allows for its use not only in striking fires, but also maintaining them at a consistent heat.",
+    "id": 24567,
+    "patch": 4.5,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 220,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25911,
+    "nodes": [
+      487,
+      507
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1018393,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              107,
+              134,
+              160
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              20,
+              26,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1018393,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "24568": {
+    "name": "Malleable Still Material",
+    "description": "This flexible material is ideal for use in creating a home-brewing facility of one's very own.",
+    "id": 24568,
+    "patch": 4.5,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 225,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 20803,
+    "nodes": [
+      488,
+      508
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1018393,
+        "probability": 1,
+        "rating": [
+          240,
+          360,
+          450
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              116,
+              143,
+              169
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              22,
+              28,
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1018393,
+        "probability": 18,
+        "rating": [
+          240,
+          360,
+          450
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "24569": {
+    "name": "Strong Steppe Spice",
+    "description": "This spice is so potent as to often go unused on the Azim Steppe itself, but after overhearing a patron state that buuz “tastes like wet sheep,” Adkiragh was inspired to add it to create a flavor more palatable to non-Xaela.",
+    "id": 24569,
+    "patch": 4.5,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 230,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25024,
+    "nodes": [
+      495,
+      519
+    ],
+    "satisfaction": [
+      {
+        "level": 3,
+        "npc": 1018393,
+        "probability": 1,
+        "rating": [
+          240,
+          400,
+          480
+        ],
+        "satisfaction": [
+          130,
+          130,
+          130
+        ],
+        "gil": [
+          900,
+          1120,
+          1340
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              125,
+              152,
+              178
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1018393,
+        "probability": 18,
+        "rating": [
+          240,
+          400,
+          480
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "24570": {
+    "name": "Hard Place Furnishing Materials",
+    "description": "A collection of items that look suitable for use in creating furnishings, and aren't <span class=\"emphasis\">that</span> dirty.",
+    "id": 24570,
+    "patch": 4.5,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 260,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26108,
+    "nodes": [
+      493,
+      514
+    ],
+    "satisfaction": [
+      {
+        "level": 4,
+        "npc": 1018393,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          500
+        ],
+        "satisfaction": [
+          180,
+          180,
+          180
+        ],
+        "gil": [
+          1010,
+          1260,
+          1510
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              134,
+              161,
+              187
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              24,
+              30,
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1018393,
+        "probability": 18,
+        "rating": [
+          240,
+          450,
+          500
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "24571": {
+    "name": "Sturdy Vat Material",
+    "description": "When fully assembled, an arkhi vat made with this material should be impermeable enough to prevent liquid escaping during the evaporation process and overly intoxicating hapless brewers.",
+    "id": 24571,
+    "patch": 4.5,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 290,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22501,
+    "nodes": [
+      491,
+      513
+    ],
+    "satisfaction": [
+      {
+        "level": 5,
+        "npc": 1018393,
+        "probability": 28,
+        "rating": [
+          240,
+          470,
+          515
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              28,
+              34,
+              40
+            ]
+          }
+        ]
       }
     ]
   },
@@ -143718,6 +150121,78 @@
       "24367": 9
     }
   },
+  "26752": {
+    "name": "Animal Trace",
+    "description": "Will this specimen yield a breakthrough in the search for the samiel? Only time and effort will tell...",
+    "id": 26752,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 290,
+    "category": 63,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22212,
+    "nodes": [
+      591,
+      611
+    ]
+  },
+  "26753": {
+    "name": "Animal Droppings",
+    "description": "“A steaming, fly-ridden pile of excrement is a veritable repository of knowledge.”<br>─Qeshi-Rae",
+    "id": 26753,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 400,
+    "category": 63,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22628,
+    "nodes": [
+      593,
+      616
+    ]
+  },
+  "26754": {
+    "name": "Megafauna Leftovers",
+    "description": "Whatever bit into this plant part can only be described as massive.",
+    "id": 26754,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 406,
+    "category": 63,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22418,
+    "nodes": [
+      592,
+      617
+    ]
+  },
+  "26755": {
+    "name": "Megafauna Trace",
+    "description": "The possibility cannot be denied: something massive this way came.",
+    "id": 26755,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 415,
+    "category": 63,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21814,
+    "nodes": [
+      596,
+      623
+    ]
+  },
   "27077": {
     "name": "Deepgold Saw",
     "jobCategories": "CRP",
@@ -152404,6 +158879,41 @@
       "seals": 840
     }
   },
+  "27701": {
+    "name": "Titancopper Ore",
+    "description": "A decent-sized piece of rock containing a naturally occurring mixture of titanium and copper.",
+    "id": 27701,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 412,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21202,
+    "nodes": [
+      598
+    ],
+    "ingredient_of": {
+      "27713": 4,
+      "28957": 9,
+      "28958": 27,
+      "28959": 45
+    },
+    "leves": [
+      1457
+    ],
+    "ventures": [
+      796
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 7162500,
+      "seals": 846
+    }
+  },
   "27702": {
     "name": "Dimythrite Sand",
     "description": "Darkly glowing sand consisting of tiny grains of dimythrite.",
@@ -154882,6 +161392,30 @@
         45
       ]
     }
+  },
+  "27728": {
+    "name": "Raw Lazurite",
+    "description": "An uncut, unpolished stone containing what appears to be lazurite.",
+    "id": 27728,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 630,
+    "ilvl": 403,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 21,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21472,
+    "nodes": [
+      605
+    ],
+    "ingredient_of": {
+      "27722": 3
+    },
+    "ventures": [
+      792
+    ]
   },
   "27729": {
     "name": "Raw Triplite",
@@ -159738,6 +166272,81 @@
       }
     ]
   },
+  "27805": {
+    "name": "Gale Rock",
+    "description": "As the name suggests, this variety of stone is more strongly aspected than typical wind rock.",
+    "id": 27805,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 630,
+    "ilvl": 409,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 21,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21473,
+    "nodes": [
+      597
+    ],
+    "reducesTo": [
+      27811,
+      19,
+      13
+    ]
+  },
+  "27806": {
+    "name": "Solarite",
+    "description": "A deceptively plain stone that, when cracked, momentarily erupts with bright light.",
+    "id": 27806,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 630,
+    "ilvl": 409,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 21,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21467,
+    "nodes": [
+      599
+    ],
+    "reducesTo": [
+      27812,
+      18,
+      12
+    ]
+  },
+  "27807": {
+    "name": "Shade Quartz",
+    "description": "Several small pieces of dark unpolished quartz.",
+    "id": 27807,
+    "patch": 5,
+    "patchCategory": 5,
+    "price": 630,
+    "ilvl": 420,
+    "category": 48,
+    "tradeable": 1,
+    "sell_price": 21,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21462,
+    "nodes": [
+      601
+    ],
+    "reducesTo": [
+      27813,
+      14,
+      8
+    ]
+  },
   "27813": {
     "name": "Agedeep Aethersand",
     "description": "The coarse-grained, elementally aspected remnants of highly concentrated aetherially reduced mineral matter.",
@@ -161525,6 +168134,463 @@
           "nq": 103447,
           "hq": 103467
         }
+      }
+    ]
+  },
+  "28199": {
+    "name": "Raven Coal",
+    "description": "Once the dense coal has been ground into powder and mixed with water, it can be used as a substitute for ink. Be sure to keep it away from white clothing, as the stains are a bugger to get out.",
+    "id": 28199,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 180,
+    "ilvl": 290,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21452,
+    "nodes": [
+      649,
+      650
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1031801,
+        "probability": 1,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              107,
+              134,
+              160
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              68,
+              84,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1031801,
+        "probability": 18,
+        "rating": [
+          240,
+          320,
+          400
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              104,
+              120,
+              136
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "28200": {
+    "name": "Amh Araeng Seasonings",
+    "description": "This selection of rare varieties of salt and spices native to Amh Araeng can be used to add a dash of elegance and a pinch of class to even the most unappetizing of dishes.",
+    "id": 28200,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 180,
+    "ilvl": 300,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25011,
+    "nodes": [
+      591,
+      611
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1031801,
+        "probability": 1,
+        "rating": [
+          240,
+          360,
+          450
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              116,
+              143,
+              169
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              77,
+              93,
+              109
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1031801,
+        "probability": 18,
+        "rating": [
+          240,
+          360,
+          450
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              104,
+              120,
+              136
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "28201": {
+    "name": "Clinquant Stones",
+    "description": "Every region of Norvrandt is, for some reason, blessed with an astonishing variety of glittering, shimmering, sparkling, and otherwise shiny stones. Il Mheg is no exception, as is amply demonstrated by these fine specimens.",
+    "id": 28201,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 390,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21474,
+    "nodes": [
+      651,
+      652
+    ],
+    "satisfaction": [
+      {
+        "level": 3,
+        "npc": 1031801,
+        "probability": 1,
+        "rating": [
+          240,
+          400,
+          480
+        ],
+        "satisfaction": [
+          130,
+          130,
+          130
+        ],
+        "gil": [
+          900,
+          1120,
+          1340
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              125,
+              152,
+              178
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              86,
+              102,
+              118
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1031801,
+        "probability": 18,
+        "rating": [
+          240,
+          400,
+          480
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              104,
+              120,
+              136
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "28202": {
+    "name": "Airship Fitting Components",
+    "description": "In the hands of an artisan, these bits and pieces gathered from around Kholusia will eventually become the decorations used to adorn Eulmore's fleet of airships. In fact, it took another sort of artisan to even find them in the first place, having been forced to separate the proverbial wheat from the chaff in some of the island's most perilous locations.",
+    "id": 28202,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 395,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": "t/26586",
+    "nodes": [
+      591,
+      611
+    ],
+    "satisfaction": [
+      {
+        "level": 4,
+        "npc": 1031801,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          500
+        ],
+        "satisfaction": [
+          180,
+          180,
+          180
+        ],
+        "gil": [
+          1010,
+          1260,
+          1510
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              134,
+              161,
+              187
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              95,
+              111,
+              127
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1031801,
+        "probability": 18,
+        "rating": [
+          240,
+          450,
+          500
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              104,
+              120,
+              136
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "28203": {
+    "name": "Kholusian Miscellany",
+    "description": "While not everything included in this assortment of locally sourced materials could be considered valuable, the various items combine to convey the very essence of Kholusia. This could, however, be attributed to the pungent oceanic odor they all seem to share.",
+    "id": 28203,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 400,
+    "category": 61,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25991,
+    "nodes": [
+      649,
+      650
+    ],
+    "satisfaction": [
+      {
+        "level": 5,
+        "npc": 1031801,
+        "probability": 28,
+        "rating": [
+          240,
+          470,
+          515
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 17834,
+            "amount": [
+              143,
+              170,
+              196
+            ]
+          },
+          {
+            "id": 25200,
+            "amount": [
+              104,
+              120,
+              136
+            ]
+          }
+        ]
       }
     ]
   },

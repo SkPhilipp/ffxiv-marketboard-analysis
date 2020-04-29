@@ -1,7 +1,7 @@
 const fs = require('fs');
 const garland = require('./garland');
 
-function load(path) {
+async function load(path) {
 	const watchFileContent = fs.readFileSync(path, {
 		encoding: 'utf8'
 	});
@@ -14,11 +14,10 @@ function load(path) {
 				if (group.items.hasOwnProperty(itemsKey)) {
 					const item = group.items[itemsKey];
 					if (item.id == null) {
-						item.id = garland.itemId(item.name);
+						item.id = await garland.itemId(item.name);
 					}
 					if (item.id == null) {
-						// TODO: Implement a mechanism to discover item ids for unknown items
-						console.log("Not known, ignored: " + item.name);
+						console.error("Item id not known, ignoring: " + item.name);
 					} else {
 						allowedItems.push(item);
 					}
