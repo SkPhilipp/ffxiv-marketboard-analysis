@@ -1,72 +1,95 @@
 const watches = require('./watches');
-const items = require('./items');
-const estimates = require('./estimates');
-const ranks = require('./ranks');
-const path = require('path');
 const showdown = require('showdown');
+const express = require('express')
+const app = express()
+const port = 3000
 
-async function rankWatched(watch) {
-	const outputs = [];
-	for (const groupKey in watch.groups) {
-		const group = watch.groups[groupKey];
-		// according to watch configuration, load in items
-		const watchedItems = group.items;
-		for (let key in watchedItems) {
-			if (watchedItems.hasOwnProperty(key)) {
-				const watchedItem = watchedItems[key];
-				switch (group.lookupMethod) {
-					case "Direct":
-						await items.load(watchedItem);
-						break;
-					default:
-					case "EndIngredientOf":
-						await items.loadTree(watchedItem);
-						break;
-				}
-			}
-		}
-		await items.save();
-
-		// according to watch configuration, estimate and score
-		const index = items.index();
-		for (const key in index) {
-			const item = index[key];
-			switch (group.scoreMethod) {
-				case "Arbitrage":
-					estimates.estimateArbitrage(item, group);
-					break;
-				default:
-				case "CraftedRare":
-					estimates.estimateCraft(item, group);
-					break;
-				case "Gather":
-					estimates.estimateGather(item, group);
-					break;
-			}
-		}
-
-		const title = watch.name + ": " + group.name;
-		const rankedItems = ranks.rank(index, 15);
-		items.clear();
-		outputs.push(title + "\n" + "=".repeat(title.length) + "\n\n"
-			+ ranks.log(rankedItems) + "\n\n"
-			+ ranks.logFfxivCraftingUrl(rankedItems) + "\n\n");
-	}
-	return outputs;
+const prefix = `<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+<style>
+html {
+	background: black;
+	color: #e2e2e2;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-(async () => {
-	if (process.argv.length <= 2) {
-		console.error("No watch file provided, use " + process.argv[1] + " {watch_file}");
-		return;
-	}
-	const watchFilePathArg = process.argv[2];
-	const watchFileAsHtml = process.argv.length <= 3 ? false : process.argv[3] === "--html";
-	const watchFilePath = path.join(__dirname, watchFilePathArg);
-	const watched = await watches.load(watchFilePath);
-	const outputs = await rankWatched(await watched);
-	const converter = new showdown.Converter({tables: true});
-	outputs.map(output => watchFileAsHtml ? converter.makeHtml(output) : output)
-		.forEach(output => console.log(output));
-	return 0;
-})();
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+body {
+	margin: 30px;
+}
+
+tr:nth-child(even) {background-color: #242424;}
+</style>
+`;
+
+app.get('/', function(req, res) {
+	(async () => {
+		res.write(prefix);
+		const watchFiles = await watches.list();
+		watchFiles.forEach(value => {
+			res.write(`<a href='/watch/${value}'>${value}</a><br/>`);
+		})
+		res.write(`<form action="/search" method="get">
+						<input type="search" name="item">
+						<input type="submit" value="LOAD">
+					</form>`);
+		res.end();
+	})();
+});
+
+app.get('/search', function(req, res) {
+	(async () => {
+		res.write(prefix);
+		const item = req.param("item")
+		if (item !== undefined
+			&& item !== null
+			&& item !== "") {
+			const watched = {
+				"name": "Custom Query",
+				"groups": [
+					{
+						"name": "Crafted",
+						"lookupMethod": "Direct",
+						"scoreMethod": "CraftedRare",
+						"items": [
+							{"name": item}
+						]
+					}
+				]
+			};
+			await watches.assignItemIds(watched);
+			const outputs = await watches.rankWatched(watched);
+			const converter = new showdown.Converter({tables: true});
+			outputs.map(output => converter.makeHtml(output)).forEach(output => res.write(output));
+		}
+		res.write(`<form action="/search" method="get">
+						<input type="search" name="item">
+						<input type="submit" value="LOAD">
+					</form>`);
+		res.end();
+	})();
+})
+
+app.get('/watch/:watchFile', function(req, res) {
+	(async () => {
+		res.write(prefix);
+		const watched = await watches.load(req.params.watchFile);
+		const outputs = await watches.rankWatched(await watched);
+		const converter = new showdown.Converter({tables: true});
+		outputs.map(output => converter.makeHtml(output)).forEach(output => res.write(output));
+		res.write(`<form action="/search" method="get">
+						<input type="search" name="item">
+						<input type="submit" value="LOAD">
+					</form>`);
+		res.end();
+	})();
+});
+
+app.listen(port, () => console.log(`Listening on port ${port}`))
+

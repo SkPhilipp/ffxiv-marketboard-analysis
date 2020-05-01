@@ -1,0 +1,53 @@
+{
+  "name": "Levequests",
+  "groups": [
+    {
+      "name": "Level 74",
+      "lookupMethod": "Direct",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {"name": "White Ash Bracelet"},
+        {"name": "Bluespirit Scythe"},
+        {"name": "Bluespirit Alembic"},
+        {"name": "Manasilver Choker"},
+        {"name": "Atrociraptorskin Necklace of Aiming"},
+        {"name": "Pixie Cotton Sleeves of Crafting"},
+        {"name": "Competent Craftsman's Syrup"},
+        {"name": "Blood Tomato Juice"},
+        {"name": "Cherry Herring"}
+      ]
+    },
+    {
+      "name": "Level 76",
+      "lookupMethod": "Direct",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {"name": "Sandteak Longbow"},
+        {"name": "Titanbronze Culinary Knife"},
+        {"name": "Titanbronze Tassets of Striking"},
+        {"name": "Triplite Earrings of Casting"},
+        {"name": "Zonureskin Fingerless Gloves of Aiming"},
+        {"name": "Ovim Wool Turban of Gathering"},
+        {"name": "Commanding Craftsman's Syrup"},
+        {"name": "Masala Chai"},
+        {"name": "Hucho Taimen"}
+      ]
+    },
+    {
+      "name": "Level 78",
+      "lookupMethod": "Direct",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {"name": "Lignum Vitae Earrings"},
+        {"name": "Dwarven Mythril File"},
+        {"name": "Dwarven Mythril Plate Belt of Casting"},
+        {"name": "Petalite Bracelet of Fending"},
+        {"name": "Swallowskin Shoes of Healing"},
+        {"name": "Dwarven Cotton Petasos of Healing"},
+        {"name": "Tincture of Mind"},
+        {"name": "Coffee Biscuit"},
+        {"name": "Stippled Eel"}
+      ]
+    }
+  ]
+}

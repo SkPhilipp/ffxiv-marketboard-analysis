@@ -77,16 +77,23 @@ function logTable(cellTypes, items) {
 	return title + separator + content;
 }
 
-function rank(index, top) {
+function rank(index, top, group) {
 	const items = [];
 	for (const key in index) {
 		if (index.hasOwnProperty(key)) {
 			const item = index[key];
-			items.push(item);
+			if (group.lookupMethod === "Direct") {
+				for (const groupItem of group.items) {
+					if (item.name === groupItem.name) {
+						items.push(item);
+						break;
+					}
+				}
+			} else {
+			}
 		}
 	}
 	return items.sort((itemA, itemB) => itemB.estimate.score - itemA.estimate.score)
-		.filter(item => item.estimate.score > 0)
 		.slice(0, top);
 }
 
@@ -108,7 +115,8 @@ function logFfxivCraftingUrl(items) {
 	items.forEach(item => {
 		ffxivCraftingAffix.push(item.id + ",1");
 	});
-	return "Link: https://ffxivcrafting.com/list/saved/" + ffxivCraftingAffix.join(":");
+	const link = `https://ffxivcrafting.com/list/saved/${ffxivCraftingAffix.join(":")}`;
+	return `<p><a href="${link}">ffxivcrafting.com list</a></p>`;
 }
 
 exports.rank = rank;
