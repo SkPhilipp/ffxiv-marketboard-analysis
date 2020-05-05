@@ -1,0 +1,16 @@
+{
+  "name": "Boss Demimateria",
+  "groups": [
+    {
+      "name": "A Realm Reborn",
+      "lookupMethod": "Direct",
+      "scoreMethod": "Gather",
+      "items": [
+        {"name": "Demimateria of the Inferno"},
+        {"name": "Demimateria of the Vortex"},
+        {"name": "Demimateria of Crags"},
+        {"name": "Demimog Demimateria"}
+      ]
+    }
+  ]
+}
