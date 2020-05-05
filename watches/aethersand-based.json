@@ -1,0 +1,30 @@
+{
+  "name": "Aethersands",
+  "groups": [
+    {
+      "name": "Agewood",
+      "lookupMethod": "EndIngredientOf",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {"name": "Agewood Aethersand"}
+      ]
+    },
+    {
+      "name": "Agedeep",
+      "lookupMethod": "EndIngredientOf",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {"name": "Agedeep Aethersand"}
+      ]
+    },
+    {
+      "name": "Ageflow",
+      "lookupMethod": "EndIngredientOf",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {"name": "Ageflow Aethersand"}
+      ]
+    }
+  ]
+}
+

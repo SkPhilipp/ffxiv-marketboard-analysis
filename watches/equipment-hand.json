@@ -5,6 +5,8 @@
       "name": "Carpenter",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Saw"},
         {"name": "Amateur's Saw"},
@@ -85,6 +87,8 @@
       "name": "Blacksmith",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Cross-pein Hammer"},
         {"name": "Amateur's Cross-pein Hammer"},
@@ -165,6 +169,8 @@
       "name": "Armorer",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Doming Hammer"},
         {"name": "Amateur's Doming Hammer"},
@@ -244,6 +250,8 @@
       "name": "Goldsmith",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Chaser Hammer"},
         {"name": "Amateur's Chaser Hammer"},
@@ -323,6 +331,8 @@
       "name": "Leatherworker",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Head Knife"},
         {"name": "Amateur's Head Knife"},
@@ -403,6 +413,8 @@
       "name": "Weaver",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Copper Needle"},
         {"name": "Amateur's Needle"},
@@ -482,6 +494,8 @@
       "name": "Alchemist",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Alembic"},
         {"name": "Amateur's Alembic"},
@@ -560,6 +574,8 @@
       "name": "Culinarian",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Skillet"},
         {"name": "Amateur's Skillet"},

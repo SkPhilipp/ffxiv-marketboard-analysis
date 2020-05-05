@@ -24,27 +24,46 @@ body {
 	margin: 30px;
 }
 
+a {
+     color: #0066ff;
+}
+
+input[type="submit"] { 
+     background: none;
+     border: none;
+     color: #0066ff;
+     text-decoration: underline;
+     cursor: pointer; 
+}
+
 tr:nth-child(even) {background-color: #242424;}
 </style>
+<p>
+	<a href="/">Home</a>
+</p>
 `;
+const suffix = `
+<form action="/search" method="get">
+	<input type="search" name="item">
+	<input type="submit" value="Load item">
+</form>`;
 
 app.get('/', function(req, res) {
 	(async () => {
+		res.setHeader('Content-Type', 'text/html');
 		res.write(prefix);
 		const watchFiles = await watches.list();
 		watchFiles.forEach(value => {
 			res.write(`<a href='/watch/${value}'>${value}</a><br/>`);
 		})
-		res.write(`<form action="/search" method="get">
-						<input type="search" name="item">
-						<input type="submit" value="LOAD">
-					</form>`);
+		res.write(suffix);
 		res.end();
 	})();
 });
 
 app.get('/search', function(req, res) {
 	(async () => {
+		res.setHeader('Content-Type', 'text/html');
 		res.write(prefix);
 		const item = req.param("item")
 		if (item !== undefined
@@ -68,25 +87,20 @@ app.get('/search', function(req, res) {
 			const converter = new showdown.Converter({tables: true});
 			outputs.map(output => converter.makeHtml(output)).forEach(output => res.write(output));
 		}
-		res.write(`<form action="/search" method="get">
-						<input type="search" name="item">
-						<input type="submit" value="LOAD">
-					</form>`);
+		res.write(suffix);
 		res.end();
 	})();
 })
 
 app.get('/watch/:watchFile', function(req, res) {
 	(async () => {
+		res.setHeader('Content-Type', 'text/html');
 		res.write(prefix);
 		const watched = await watches.load(req.params.watchFile);
 		const outputs = await watches.rankWatched(await watched);
 		const converter = new showdown.Converter({tables: true});
 		outputs.map(output => converter.makeHtml(output)).forEach(output => res.write(output));
-		res.write(`<form action="/search" method="get">
-						<input type="search" name="item">
-						<input type="submit" value="LOAD">
-					</form>`);
+		res.write(suffix);
 		res.end();
 	})();
 });

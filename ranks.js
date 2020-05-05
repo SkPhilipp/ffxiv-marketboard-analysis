@@ -63,7 +63,11 @@ function asCellTitle(cellType) {
 }
 
 function asCellValue(cellType, item) {
-	return cellType.method(item).toString().padStart(cellType.width) + " ";
+	const value = cellType.method(item);
+	if (value === null) {
+		return " ".repeat(cellType.width);
+	}
+	return value.toString().padStart(cellType.width) + " ";
 }
 
 function asCellFill(cellType) {
@@ -90,10 +94,12 @@ function rank(index, top, group) {
 					}
 				}
 			} else {
+				items.push(item);
 			}
 		}
 	}
 	return items.sort((itemA, itemB) => itemB.estimate.score - itemA.estimate.score)
+		.filter(item =>  item.estimate.score > 0)
 		.slice(0, top);
 }
 

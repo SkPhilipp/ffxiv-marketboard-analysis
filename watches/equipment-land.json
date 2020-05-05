@@ -5,6 +5,8 @@
       "name": "Miner",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Pickaxe"},
         {"name": "Amateur's Pickaxe"},
@@ -83,6 +85,8 @@
       "name": "Botanist",
       "lookupMethod": "Direct",
       "scoreMethod": "CraftedRare",
+      "minimumProfit": 80000,
+      "minimumDemand": 0.6,
       "items": [
         {"name": "Bronze Hatchet"},
         {"name": "Amateur's Hatchet"},
