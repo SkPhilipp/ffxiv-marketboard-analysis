@@ -1,0 +1,26 @@
+{
+  "name": "Timeworn Maps",
+  "groups": [
+    {
+      "name": "Standard",
+      "lookupMethod": "Direct",
+      "scoreMethod": "Gather",
+      "minimumThroughput": 5000,
+      "items": [
+        {"name": "Timeworn Leather Map"},
+        {"name": "Timeworn Goatskin Map"},
+        {"name": "Timeworn Toadskin Map"},
+        {"name": "Timeworn Boarskin Map"},
+        {"name": "Timeworn Peisteskin Map"},
+        {"name": "Timeworn Archaeoskin Map"},
+        {"name": "Timeworn Wyvernskin Map"},
+        {"name": "Timeworn Dragonskin Map"},
+        {"name": "Timeworn Gaganaskin Map"},
+        {"name": "Timeworn Gazelleskin Map"},
+        {"name": "Timeworn Thief's Map"},
+        {"name": "Timeworn Gliderskin Map"},
+        {"name": "Timeworn Zonureskin Map"}
+      ]
+    }
+  ]
+}
