@@ -1,0 +1,42 @@
+{
+  "name": "Culinarian",
+  "groups": [
+    {
+      "name": "Master VIII",
+      "lookupMethod": "Direct",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {
+          "name": "Ovim Meatballs"
+        },
+        {
+          "name": "Sausage and Sauerkraut"
+        },
+        {
+          "name": "Farmer's Breakfast"
+        },
+        {
+          "name": "Honey Croissant"
+        },
+        {
+          "name": "Pickled Herring"
+        },
+        {
+          "name": "Stuffed Highland Cabbage"
+        },
+        {
+          "name": "Lemon Waffle"
+        },
+        {
+          "name": "Herring Pie"
+        },
+        {
+          "name": "Silkie Pudding"
+        },
+        {
+          "name": "Mors"
+        }
+      ]
+    }
+  ]
+}

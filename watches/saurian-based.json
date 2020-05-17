@@ -1,0 +1,13 @@
+{
+  "name": "Glamour Items",
+  "groups": [
+    {
+      "name": "Saurian Based",
+      "lookupMethod": "EndIngredientOf",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {"name": "Saurian Leather"}
+      ]
+    }
+  ]
+}

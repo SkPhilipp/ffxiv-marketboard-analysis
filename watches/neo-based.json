@@ -1,0 +1,32 @@
+{
+  "name": "Glamour Items",
+  "groups": [
+    {
+      "name": "Neo Aetherstone Based",
+      "lookupMethod": "EndIngredientOf",
+      "scoreMethod": "CraftedRare",
+      "items": [
+        {
+          "name": "Neo Aetherstone - Body Gear",
+          "id": 15909
+        },
+        {
+          "name": "Neo Aetherstone - Foot Gear",
+          "id": 15912
+        },
+        {
+          "name": "Neo Aetherstone - Headgear",
+          "id": 15908
+        },
+        {
+          "name": "Neo Aetherstone - Hand Gear",
+          "id": 15910
+        },
+        {
+          "name": "Neo Aetherstone - Leg Gear",
+          "id": 15911
+        }
+      ]
+    }
+  ]
+}
