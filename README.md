@@ -1,4 +1,10 @@
-# Installation
+# FFXIV Marketboard Analysis
+
+This is a project which analyses item prices for estimating arbitrage and crafting profits in the game Final Fantasy XIV by Square Enix.
+
+Somewhere during the 2020 quarantines me and my friends picked up FFXIV and I threw together this project, if you're looking for code quality this isn't it, if you're looking to estimate your profits on your lv. 80 omnicrafter then this is the project you're looking for.
+
+## Installation
 
     npm install
 
